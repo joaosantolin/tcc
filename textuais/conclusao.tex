@@ -1,0 +1,50 @@
+\chapter{Conclusão}
+
+Este capítulo apresenta uma síntese do trabalho desenvolvido, relaciona os resultados alcançados aos objetivos geral e específicos estabelecidos na introdução, discute as limitações identificadas ao longo da pesquisa e elenca diretrizes para trabalhos futuros.
+
+\section{Considerações Finais}
+
+O presente trabalho apresentou o projeto, o desenvolvimento e a validação do sistema web \textbf{Test-Manager}, concebido para centralizar o gerenciamento de casos de teste e o rastreamento de defeitos (\textit{bugs}) nos projetos de software do Instituto Federal do Espírito Santo (IFES) Campus Alegre. A proposta originou-se da necessidade prática de substituir controles descentralizados e informais --- baseados em documentos de texto e planilhas compartilhadas em nuvem ---, os quais ocasionavam perda recorrente de histórico de execução, desorganização de roteiros e dificuldade de acompanhamento gerencial pelos professores orientadores.
+
+Guiado pela abordagem metodológica de Apresentação de Produto \cite{wazlawick2019} e por um processo de desenvolvimento iterativo e incremental, o estudo percorreu as etapas de elicitação de requisitos, modelagem arquitetural em UML, implementação sob o padrão Model-View-Controller (MVC) com o framework Laravel e banco de dados relacional MySQL em ambiente Docker, culminando na validação empírica com usuários reais. O artefato resultante consolidou em uma plataforma única o cadastro de projetos, a alocação de equipes, o controle automático de versões de testes (\texttt{v1.0}, \texttt{v2.0}), a obrigatoriedade de relato de defeitos em cenários reprovados e a trilha de auditoria imutável.
+
+A validação conduzida após o uso orientado confirmou a elevada aceitação da plataforma pelas equipes, registrando forte reconhecimento quanto à utilidade prática, à segurança na preservação do histórico e à clareza na comunicação entre Coordenadores, Testers e Desenvolvedores. Conclui-se, portanto, que o Test-Manager cumpriu seu propósito tecnológico e acadêmico, oferecendo ao campus uma infraestrutura padronizada e auditável para o exercício prático da Garantia da Qualidade de Software (QA).
+
+\section{Síntese do Atendimento aos Objetivos}
+
+Em relação ao \textbf{objetivo geral} --- desenvolver um sistema web centralizado em PHP/Laravel e MySQL para otimizar o controle de qualidade, a preservação do histórico e a governança dos projetos de software do IFES Campus Alegre ---, verifica-se que a meta foi integralmente cumprida, com a solução projetada, codificada, conteinerizada e validada empiricamente.
+
+Os \textbf{objetivos específicos} definidos na Seção 1.3.2 foram alcançados da seguinte forma:
+\begin{itemize}
+    \item \textbf{Mapeamento e especificação de requisitos:} Foram elicitados e documentados 13 Requisitos Funcionais (RF01 a RF13) e 3 Requisitos Não Funcionais essenciais (RNF01 a RNF03) a partir da análise das demandas reais das equipes de desenvolvimento e coordenação do campus (Capítulo 4);
+    \item \textbf{Modelagem arquitetural e relacional:} A estrutura lógica e comportamental do sistema foi integralmente especificada por meio do Diagrama de Casos de Uso (11 casos de uso rastreáveis), do Diagrama de Classes orientado aos modelos do Eloquent ORM e do Modelo Lógico de Dados (DER) no SGBD MySQL (Seções 4.4 e 4.5);
+    \item \textbf{Implementação do sistema Test-Manager:} A aplicação web foi construída sob o padrão MVC, contemplando o controle de acesso por perfis (Coordenador, Tester e Desenvolvedor), gestão de projetos, importação em lote de testes via CSV, versionamento automático de execuções, registro de defeitos com captura de tela, linha do tempo de auditoria e exportação de relatórios em PDF (Capítulo 5);
+    \item \textbf{Execução de testes funcionais e validação com usuários:} Além da verificação técnica de todos os fluxos operacionais, aplicou-se o questionário baseado no Modelo TAM ($n = 5$, cobrindo todos os perfis), obtendo-se média geral de \textbf{4,43} nos itens comuns (Q1--Q8), média de \textbf{4,80} nas funcionalidades específicas de cada perfil (Q9--Q17) e média global consolidada de \textbf{4,53} na escala de 1 a 5 (Capítulo 6).
+\end{itemize}
+
+\section{Limitações}
+
+A despeito dos resultados positivos alcançados, cumpre reconhecer algumas limitações inerentes ao escopo e ao recorte metodológico deste estudo:
+\begin{itemize}
+    \item \textbf{Delimitação de escopo ao ciclo de testes e defeitos:} O sistema foi projetado especificamente para gerenciar casos de teste, versões de execução e rastreamento de \textit{bugs}, não contemplando um módulo prévio de elicitação e gerenciamento de Requisitos Funcionais e Não Funcionais dos projetos avaliados;
+    \item \textbf{Anexo único de evidência por defeito:} Na versão atual, o formulário de registro de defeito permite a anexação de apenas um arquivo de imagem (\textit{print} da tela) por ocorrência reportada;
+    \item \textbf{Tamanho da amostra e estudo de caso único:} A validação empírica foi conduzida no contexto institucional específico do IFES Campus Alegre com uma amostra de cinco participantes ($n = 5$), o que, embora represente todos os papéis do sistema, impõe cautela na generalização estatística para outros cenários organizacionais;
+    \item \textbf{Execução manual dos roteiros de teste:} A plataforma gerencia o planejamento, a versão e o veredito dos casos de teste executados por avaliadores humanos, não realizando a execução automatizada de scripts de teste de código (como testes unitários ou \textit{end-to-end}).
+\end{itemize}
+
+\section{Trabalhos Futuros}
+
+Com base nas limitações identificadas e nas sugestões colhidas junto aos usuários durante a etapa de validação (Q18 e Q19), destacam-se as seguintes oportunidades de evolução contínua para o Test-Manager:
+\begin{itemize}
+    \item \textbf{Módulo de Engenharia de Requisitos e Matriz de Rastreabilidade:} Implementar o cadastro de requisitos de software dentro de cada projeto, permitindo vincular diretamente quais casos de teste validam determinado requisito e quais defeitos o impactam, atendendo à sugestão do perfil Coordenador;
+    \item \textbf{Suporte a múltiplos anexos e vídeos nos defeitos:} Expandir a camada de armazenamento para permitir o envio de múltiplas capturas de tela, arquivos de log ou gravações curtas de tela em um único relato de \textit{bug}, conforme sugerido pelos perfis Tester e Desenvolvedor;
+    \item \textbf{Refinamento de usabilidade e personalização de fluxos:} Aprimorar a visibilidade dos atalhos de edição e exclusão nas listagens de casos de teste e permitir a parametrização customizada de nomenclaturas de status e níveis de prioridade de defeitos por projeto;
+    \item \textbf{Sistema de notificações ativas:} Integrar o envio automático de alertas por e-mail ou \textit{webhooks} (Discord, Telegram ou Slack) sempre que um teste for atribuído a um Tester, um defeito for designado a um Desenvolvedor ou uma correção for concluída;
+    \item \textbf{Integração com repositórios Git e pipelines CI/CD:} Desenvolver integração via API com o GitHub e GitLab para vincular o fechamento de defeitos diretamente a \textit{commits} ou \textit{Pull Requests} e importar resultados de suítes de testes automatizados (PHPUnit, Jest ou Cypress).
+\end{itemize}
+
+\section{Considerações Finais do Autor}
+
+A elaboração deste Trabalho de Conclusão de Curso proporcionou a consolidação prática das competências construídas ao longo da graduação em Tecnologia em Análise e Desenvolvimento de Sistemas no IFES Campus Alegre, integrando conhecimentos de Engenharia de Requisitos, Modelagem Orientada a Objetos, Banco de Dados, Arquitetura MVC com Laravel, Conteinerização com Docker e Qualidade de Software.
+
+Mais do que a codificação de um artefato tecnológico, a vivência de diagnosticar uma necessidade real do ambiente acadêmico, projetar uma solução sob medida e submetê-la ao crivo de coordenadores, testadores e desenvolvedores evidenciou como a Engenharia de Software pode transformar processos informais em fluxos organizados, transparentes e colaborativos. Espera-se que o Test-Manager continue apoiando os projetos de ensino, pesquisa e extensão do campus e sirva como base evolutiva para as futuras gerações de estudantes da instituição.

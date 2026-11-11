@@ -1,0 +1,128 @@
+\chapter{Validação do Sistema (Resultados e Discussão)}
+
+Este capítulo apresenta os resultados da validação do sistema Test-Manager junto aos usuários que atuaram nos papéis de Coordenador, Tester e Desenvolvedor em projetos de software do IFES Campus Alegre. O delineamento metodológico geral da avaliação foi descrito no Capítulo 3; nesta seção detalham-se o instrumento ramificado por perfil, o protocolo de coleta, a tabulação estatística das respostas e a discussão dos achados em relação aos objetivos do trabalho.
+
+\section{Instrumentos de Avaliação}
+
+A validação foi estruturada em dois níveis complementares: (i) verificação técnica funcional por lista de checagem (\textit{checklist}) dos fluxos operacionais e restrições de acesso por perfil; e (ii) avaliação perceptiva dos usuários por meio de questionário estruturado fundamentado no Modelo de Aceitação de Tecnologia (\textit{Technology Acceptance Model} --- TAM) \cite{davis1989, venkatesh2000} e em preceitos de engenharia de usabilidade \cite{nielsen1994}.
+
+\subsection{Verificação Técnica}
+
+Antes da aplicação do questionário, foram exercitados manualmente os fluxos principais do sistema em ambiente conteinerizado: cadastro de projetos e alocação de equipes pelo Coordenador, importação de roteiros de teste em lote via arquivo \texttt{.csv}, atribuição e avaliação de versões pelo Tester, exigência de cadastro de defeito com upload de captura de tela (\textit{print}) no fluxo de reprovação, atualização de status de correção pelo Desenvolvedor e geração de logs de auditoria e relatórios em PDF. Confirmou-se que as regras de negócio modeladas no Capítulo 4 refletem-se integralmente no comportamento da aplicação, sem falhas de permissão entre perfis.
+
+\subsection{Questionário de Avaliação (Modelo TAM)}
+
+O questionário foi elaborado na plataforma Google Forms e organizado em blocos lógicos. O primeiro bloco coletou o perfil de acesso principal utilizado pelo participante e apresentou oito afirmações gerais (Q1 a Q8), respondidas por todos os integrantes, abrangendo os construtos de \textbf{Facilidade de Uso Percebida} (Q1 a Q3), \textbf{Utilidade Percebida} (Q4 a Q6) e \textbf{Intenção Comportamental de Uso} (Q7 e Q8).
+
+Na sequência, o formulário utilizou ramificação condicional para avaliar as funcionalidades exclusivas de cada ator: o perfil \textbf{Coordenador} respondeu aos itens Q9 a Q11; o perfil \textbf{Tester} avaliou os itens Q12 a Q14; e o perfil \textbf{Desenvolvedor} respondeu aos itens Q15 a Q17. Todas as afirmações fechadas foram mensuradas em escala Likert de cinco pontos, variando de 1 (\textit{Discordo Totalmente}) a 5 (\textit{Concordo Totalmente}). Ao final, duas questões abertas (Q18 e Q19) coletaram percepções sobre dificuldades encontradas e sugestões de evolução futura. O Quadro \ref{quad:itens_questionario} detalha a estrutura completa do instrumento aplicado.
+
+\begin{quadro}[!htb]
+\centering
+\caption{Itens do formulário de avaliação do sistema Test-Manager.}
+\label{quad:itens_questionario}
+\footnotesize
+\begin{tabularx}{\textwidth}{|p{1.1cm}|p{3.3cm}|X|}
+\hline
+\textbf{Cód.} & \textbf{Dimensão / Escopo} & \textbf{Afirmação / Questão} \\ \hline
+Perfil & Identificação & Qual é o seu perfil de acesso principal no Test-Manager? (Coordenador, Tester ou Desenvolvedor). \\ \hline
+Q1 & Facilidade de Uso (Geral) & Aprender a utilizar o Test-Manager foi um processo fácil e rápido para mim. \\ \hline
+Q2 & Facilidade de Uso (Geral) & A interface do sistema é clara, intuitiva e fácil de navegar. \\ \hline
+Q3 & Facilidade de Uso (Geral) & É fácil encontrar as informações ou funcionalidades que preciso dentro do sistema. \\ \hline
+Q4 & Utilidade Percebida (Geral) & O uso do Test-Manager torna o processo mais rápido em comparação ao método anterior (planilhas/Google Docs). \\ \hline
+Q5 & Utilidade Percebida (Geral) & O sistema ajuda a manter o histórico de testes e falhas de forma mais segura e rastreável. \\ \hline
+Q6 & Utilidade Percebida (Geral) & Em geral, acredito que o Test-Manager melhora a minha produtividade no projeto. \\ \hline
+Q7 & Intenção de Uso (Geral) & Pretendo continuar utilizando o Test-Manager nas atividades de QA dos próximos projetos. \\ \hline
+Q8 & Intenção de Uso (Geral) & Eu recomendaria este sistema para outras equipes de desenvolvimento do IFES. \\ \hline
+Q9 & Específico: Coordenador & O processo de criar projetos e vincular Desenvolvedores e Testers é simples e direto. \\ \hline
+Q10 & Específico: Coordenador & O sistema me oferece uma boa visão geral sobre o andamento da qualidade dos projetos. \\ \hline
+Q11 & Específico: Coordenador & A importação em lote de casos de teste via arquivo CSV agiliza a alimentação inicial do sistema. \\ \hline
+Q12 & Específico: Tester & A tela de listagem de Casos de Teste permite entender rapidamente os passos e o resultado esperado. \\ \hline
+Q13 & Específico: Tester & O processo de aprovar ou reprovar uma versão de teste é ágil e requer poucos cliques. \\ \hline
+Q14 & Específico: Tester & A obrigatoriedade de cadastrar um defeito (\textit{bug}) ao reprovar um teste ajuda a garantir a documentação da falha. \\ \hline
+Q15 & Específico: Desenvolvedor & É fácil visualizar e filtrar os defeitos (\textit{bugs}) que foram atribuídos ao meu projeto. \\ \hline
+Q16 & Específico: Desenvolvedor & As informações fornecidas na tela de Detalhes do Defeito são claras e suficientes para eu corrigir o erro. \\ \hline
+Q17 & Específico: Desenvolvedor & Atualizar o ciclo de vida do defeito facilita a comunicação com a equipe sem usar ferramentas externas. \\ \hline
+Q18 & Aberta (Dificuldades) & Qual foi a maior dificuldade ou confusão que você encontrou ao utilizar o sistema? \\ \hline
+Q19 & Aberta (Sugestões) & Quais funcionalidades você sugere que sejam adicionadas, alteradas ou removidas no futuro? \\ \hline
+\end{tabularx}
+\fonte{Elaborado pelo autor (2026).}
+\end{quadro}
+
+\section{Procedimento de Coleta}
+
+O procedimento adotado na condução da avaliação empírica seguiu cinco etapas:
+\begin{enumerate}
+    \item Disponibilização do Test-Manager aos participantes atuantes em projetos de software no IFES Campus Alegre, com orientação inicial conforme o perfil de acesso;
+    \item Período de uso orientado do sistema contemplando os fluxos de criação de projetos, importação e cadastro de casos de teste, execução e avaliação de versões, relato obrigatório de defeitos na reprovação e resolução de \textit{bugs};
+    \item Divulgação do link do formulário eletrônico aos usuários que operaram a plataforma;
+    \item Coleta anônima das respostas por meio do Google Forms entre outubro e novembro de 2026;
+    \item Tabulação quantitativa das respostas em escala Likert (médias aritméticas e desvios-padrão amostrais) e análise qualitativa das respostas discursivas.
+\end{enumerate}
+
+Não houve identificação nominal dos participantes; o perfil declarado serviu exclusivamente para direcionar o bloco de questões específicas e contextualizar a análise dos resultados.
+
+\section{Resultados}
+
+A coleta obteve 5 respostas válidas ($n = 5$) após o uso orientado do Test-Manager. Quanto ao perfil de acesso principal declarado, a amostra contemplou todos os atores modelados no sistema, distribuindo-se em: Coordenador (1), Tester (2) e Desenvolvedor (2).
+
+A Tabela \ref{tab:resultados_likert} consolida o número de respondentes ($n$), as médias e os desvios-padrão (DP) obtidos em cada afirmação na escala de 1 a 5.
+
+\begin{table}[!htb]
+\centering
+\caption{Resultados do questionário de avaliação do Test-Manager (Escala Likert 1--5).}
+\label{tab:resultados_likert}
+\small
+\begin{tabularx}{\textwidth}{|l|X|c|c|c|}
+\hline
+\textbf{Item} & \textbf{Aspecto Avaliado} & \textbf{$n$} & \textbf{Média} & \textbf{DP} \\ \hline
+\multicolumn{5}{|l|}{\textbf{Dimensões Gerais do Modelo TAM (Todos os Perfis)}} \\ \hline
+Q1 & Facilidade e rapidez no aprendizado do sistema & 5 & 4,20 & 0,45 \\ \hline
+Q2 & Clareza, intuitividade e navegabilidade da interface & 5 & 4,40 & 0,89 \\ \hline
+Q3 & Facilidade para localizar informações e funcionalidades & 5 & 4,20 & 0,84 \\ \hline
+Q4 & Agilidade do processo frente a planilhas/Google Docs & 5 & 4,40 & 0,89 \\ \hline
+Q5 & Segurança e rastreabilidade do histórico de testes e falhas & 5 & 4,80 & 0,45 \\ \hline
+Q6 & Melhoria da produtividade nas atividades do projeto & 5 & 4,60 & 0,55 \\ \hline
+Q7 & Intenção de uso contínuo nos próximos projetos & 5 & 4,60 & 0,55 \\ \hline
+Q8 & Recomendação do sistema para outras equipes do IFES & 5 & 4,20 & 1,30 \\ \hline
+\multicolumn{5}{|l|}{\textbf{Módulos Específicos por Perfil de Acesso}} \\ \hline
+Q9 & Simplicidade ao criar projetos e vincular equipe (Coordenador) & 1 & 4,00 & - \\ \hline
+Q10 & Visão geral sobre o andamento da qualidade (Coordenador) & 1 & 5,00 & - \\ \hline
+Q11 & Agilidade na importação em lote via arquivo CSV (Coordenador) & 1 & 5,00 & - \\ \hline
+Q12 & Clareza dos passos e resultado esperado na listagem (Tester) & 2 & 4,50 & 0,71 \\ \hline
+Q13 & Agilidade ao aprovar ou reprovar versões de teste (Tester) & 2 & 5,00 & 0,00 \\ \hline
+Q14 & Documentação garantida pelo defeito obrigatório na reprovação (Tester) & 2 & 5,00 & 0,00 \\ \hline
+Q15 & Facilidade ao visualizar e filtrar defeitos atribuídos (Desenvolvedor) & 2 & 4,50 & 0,71 \\ \hline
+Q16 & Suficiência das informações nos detalhes do defeito (Desenvolvedor) & 2 & 5,00 & 0,00 \\ \hline
+Q17 & Comunicação facilitada pela atualização do ciclo de vida (Desenvolvedor) & 2 & 5,00 & 0,00 \\ \hline
+\multicolumn{2}{|l|}{\textbf{Média Geral dos Itens Comuns (Q1--Q8)}} & \textbf{40 obs.} & \textbf{4,43} & \textbf{0,75} \\ \hline
+\multicolumn{2}{|l|}{\textbf{Média Geral dos Módulos Específicos (Q9--Q17)}} & \textbf{15 obs.} & \textbf{4,80} & \textbf{0,41} \\ \hline
+\multicolumn{2}{|l|}{\textbf{Média Global Consolidada (Q1--Q17)}} & \textbf{55 obs.} & \textbf{4,53} & \textbf{0,69} \\ \hline
+\end{tabularx}
+\fonte{Elaborado pelo autor (2026), com base na aplicação do questionário.}
+\end{table}
+
+\subsection{Respostas Abertas: Dificuldades e Sugestões (Q18 e Q19)}
+
+Nas questões discursivas destinadas ao levantamento de dificuldades operacionais (Q18) e sugestões de aprimoramento futuro (Q19), quatro participantes registraram observações sobre dificuldades e três indicaram propostas de evolução:
+\begin{itemize}
+    \item \textbf{Perfil Coordenador:} Relatou que sua expectativa inicial era de que a plataforma também abrangesse o gerenciamento prévio de requisitos do software, sugerindo para trabalhos futuros a inclusão de um módulo de cadastro de requisitos formalmente atrelado aos casos de teste, além do refinamento contínuo nas nomenclaturas de status de testes e níveis de prioridade de defeitos;
+    \item \textbf{Perfil Tester:} Um avaliador apontou como limitação pontual o fato de o formulário de relato de defeito permitir o envio de apenas uma captura de tela (\textit{print}) por registro; o segundo avaliador mencionou dificuldade visual para localizar de imediato os botões de edição e exclusão logo após cadastrar um caso de teste, sugerindo destacá-los na interface de listagem;
+    \item \textbf{Perfil Desenvolvedor:} Ambos os respondentes indicaram não ter encontrado nenhuma dificuldade ou confusão ao operar o sistema (``Nenhuma''), e um deles corroborou a sugestão de permitir o anexo de múltiplos arquivos ou imagens no registro de defeitos para enriquecer a evidência do erro.
+\end{itemize}
+
+\section{Discussão}
+
+A média geral de 4,43 nos itens comuns (Q1 a Q8) e a média global consolidada de 4,53 (Q1 a Q17), em escala de 1 a 5, situam-se próximas ao topo da escala (\textit{Concordo Totalmente}), evidenciando aceitação amplamente favorável do Test-Manager após o uso prático. Esse resultado é convergente com a verificação técnica prévia, na qual os fluxos operacionais foram executados sem erros de permissão ou inconsistências de estado.
+
+Analisando os construtos do Modelo TAM \cite{davis1989, venkatesh2000} no bloco geral, a dimensão de \textbf{Utilidade Percebida} (Q4 a Q6) alcançou a maior média agregada (4,60; $\text{DP} = 0,63$). O item Q5 (manutenção do histórico de testes e falhas de forma segura e rastreável) obteve o maior índice individual entre as questões gerais (4,80; $\text{DP} = 0,45$), seguido por Q6 (ganho de produtividade, com 4,60) e Q4 (agilidade em comparação a planilhas e Google Docs, com 4,40). Esses números confirmam diretamente a hipótese norteadora da pesquisa: substituir documentos fragmentados em nuvem por um repositório relacional centralizado elimina a perda de histórico de execução, conforme defendido por \citeonline{medeiros2022} e \citeonline{kokubum2025}.
+
+O construto de \textbf{Facilidade de Uso Percebida} (Q1 a Q3) registrou média de 4,27 ($\text{DP} = 0,70$), com destaque para a clareza e intuitividade da interface (Q2, com 4,40). Já a \textbf{Intenção Comportamental de Uso} (Q7 e Q8) atingiu média de 4,40, destacando-se a intenção de continuar utilizando o Test-Manager nos próximos projetos de QA (Q7, com 4,60 e $\text{DP} = 0,55$). O desvio-padrão mais elevado observado em Q8 (1,30, referente à recomendação imediata para outras equipes) explica-se integralmente pela avaliação cautelosa do perfil Coordenador (nota 2 em Q8 e nota 3 em Q2, Q3 e Q4), que justificou na questão aberta (Q18/Q19) sentir falta de um módulo prévio de Engenharia de Requisitos integrado aos casos de teste antes de expandir o sistema para outros grupos.
+
+Por outro lado, quando se analisa a execução das tarefas para as quais o sistema foi especificamente delimitado --- os \textbf{Módulos Específicos por Perfil} (Q9 a Q17) ---, a média salta para expressivos \textbf{4,80} ($\text{DP} = 0,41$). Seis dos nove indicadores específicos obtiveram nota máxima unânime (5,00):
+\begin{itemize}
+    \item O \textbf{Coordenador} atribuiu nota máxima (5,00) à visão gerencial do andamento da qualidade (Q10) e à agilidade proporcionada pela importação de casos de teste em lote via arquivo CSV (Q11);
+    \item Os \textbf{Testers} atribuíram nota máxima (5,00; $\text{DP} = 0,00$) à agilidade de aprovar ou reprovar versões com poucos cliques (Q13) e ao mecanismo que obriga o cadastro do defeito no ato da reprovação (Q14);
+    \item Os \textbf{Desenvolvedores} atribuíram nota máxima (5,00; $\text{DP} = 0,00$) à suficiência técnica da tela de detalhes do defeito para reproduzir e corrigir o código (Q16) e à eficácia da atualização de status para comunicação interna sem depender de mensagens paralelas (Q17), além de avaliarem o sistema com notas entre 4 e 5 em todos os itens gerais.
+\end{itemize}
+
+As sugestões colhidas nas questões abertas --- suporte a múltiplos anexos de imagem por defeito, maior destaque visual aos botões de edição/exclusão para o perfil Tester e criação de um módulo de rastreabilidade de requisitos --- não comprometem o núcleo funcional entregue e oferecem um roteiro concreto para a evolução da ferramenta, detalhado nas perspectivas de trabalhos futuros no Capítulo 7.

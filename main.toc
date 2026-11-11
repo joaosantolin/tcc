@@ -1,0 +1,74 @@
+\changetocdepth {4}
+\vspace {15pt}
+\babel@toc {brazil}{}\relax 
+\babel@toc {brazil}{}\relax 
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Justificativa}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Problema de Pesquisa}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Objetivos}{4}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Objetivo Geral}{4}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Objetivos Específicos}{4}{subsection.1.3.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Referencial Teórico}}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Engenharia de Software e Processos de Desenvolvimento}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Garantia da Qualidade de Software (QA)}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Teste de Software: Conceitos Formais e Gestão de Defeitos}{7}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Modelagem Visual com UML}{8}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Tecnologias Utilizadas no Projeto}{9}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}PHP e Framework Laravel}{9}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Padrão de Arquitetura MVC}{9}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}MySQL}{10}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}HTML5, CSS3 e Bootstrap 5}{10}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}Git e GitHub}{10}{subsection.2.5.5}%
+\contentsline {section}{\numberline {2.6}Trabalhos Correlatos}{11}{section.2.6}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Metodologia}}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Abordagem Metodológica}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Processo de Desenvolvimento de Software}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Instrumento de Coleta de Dados e Validação}{15}{section.3.3}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Projeto do Sistema Test-Manager}}{16}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Arquitetura do Sistema}{16}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Requisitos Funcionais}{16}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Requisitos Não Funcionais}{18}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Casos de Uso}{18}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Modelagem Estrutural}{21}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Diagrama de Classes}{22}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Modelo Lógico de Dados}{24}{subsection.4.5.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{O Sistema Test-Manager}}{27}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Arquitetura da Solução e Controle de Acesso}{27}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Interfaces e Fluxos Operacionais do Sistema}{28}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Acesso ao Sistema e Painel de Indicadores (Dashboard)}{29}{subsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.1.1}Login e Autenticação}{29}{subsubsection.5.2.1.1}%
+\contentsline {subsubsection}{\numberline {5.2.1.2}Dashboard Gerencial e Relatórios}{29}{subsubsection.5.2.1.2}%
+\contentsline {subsection}{\numberline {5.2.2}Gestão de Projetos, Equipes e Casos de Teste}{30}{subsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.2.1}Cadastro de Projetos e Alocação de Usuários}{30}{subsubsection.5.2.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2.2}Gestão de Casos de Teste e Importação em Lote}{31}{subsubsection.5.2.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Execução de Testes, Rastreamento de Defeitos e Auditoria}{32}{subsection.5.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.3.1}Execução de Casos de Teste e Versionamento Automático}{32}{subsubsection.5.2.3.1}%
+\contentsline {subsubsection}{\numberline {5.2.3.2}Registro e Ciclo de Vida de Defeitos (Bugs)}{33}{subsubsection.5.2.3.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Validação do Sistema (Resultados e Discussão)}}{35}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Instrumentos de Avaliação}{35}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Verificação Técnica}{35}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Questionário de Avaliação (Modelo TAM)}{35}{subsection.6.1.2}%
+\contentsline {section}{\numberline {6.2}Procedimento de Coleta}{36}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Resultados}{38}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Respostas Abertas: Dificuldades e Sugestões (Q18 e Q19)}{38}{subsection.6.3.1}%
+\contentsline {section}{\numberline {6.4}Discussão}{40}{section.6.4}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Conclusão}}{42}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Considerações Finais}{42}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Síntese do Atendimento aos Objetivos}{43}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Limitações}{44}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Trabalhos Futuros}{44}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Considerações Finais do Autor}{45}{section.7.5}%
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{46}{section*.7}%
+\vspace {\cftbeforechapterskip }

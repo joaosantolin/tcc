@@ -1,0 +1,84 @@
+\chapter{Referencial Teórico}
+
+Para fundamentar o desenvolvimento do sistema Test-Manager e compreender o panorama científico em que a proposta se insere, esta seção apresenta uma revisão aprofundada da literatura. O embasamento aborda os preceitos da Engenharia de Software, os mecanismos de Garantia da Qualidade, os conceitos formais de Testes de Software, o padrão arquitetural adotado e as tecnologias web que compõem a solução, encerrando-se com a análise comparativa de trabalhos correlatos.
+
+\section{Engenharia de Software e Processos de Desenvolvimento}
+
+A Engenharia de Software compreende a aplicação de uma abordagem sistemática, disciplinada e quantificável ao desenvolvimento, operação e manutenção de sistemas computacionais \cite{vasconcelos2006}. Conforme aponta Wazlawick \cite{wazlawick2019}, o desenvolvimento de software não deve ser encarado como uma atividade puramente artesanal ou intuitiva; trata-se de uma disciplina de engenharia que exige planejamento, controle de processos e o emprego de metodologias consolidadas para garantir a previsibilidade de custos, prazos e nível de confiabilidade do produto final.
+
+O ciclo de vida de um sistema de informação engloba um conjunto de fases coordenadas que guiam o artefato desde a sua concepção até a descontinuação. De acordo com Vasconcelos et al. \cite{vasconcelos2006}, as abordagens metodológicas dividem-se tradicionalmente entre modelos prescritivos (lineares) e modelos ágeis (iterativos e incrementais). Independentemente da filosofia adotada, a literatura estabelece que atividades de engenharia de requisitos, modelagem arquitetural, codificação e verificação são universais e interdependentes \cite{wazlawick2019}.
+
+No cenário de desenvolvimento contemporâneo, a complexidade intrínseca das aplicações web exige que as equipes mitiguem riscos logo nas etapas iniciais do projeto. Wazlawick \cite{wazlawick2019} enfatiza que falhas originadas na fase de especificação de requisitos tendem a se propagar de maneira cumulativa ao longo das etapas subsequentes. Consequentemente, o custo de correção de um erro detectado tardiamente em ambiente de produção pode ser exponencialmente superior ao custo de sua resolução durante as fases de projeto ou modelagem, o que justifica a necessidade de incorporar processos rigorosos de validação desde o início do ciclo de vida do software \cite{vasconcelos2006, wazlawick2019}.
+
+\section{Garantia da Qualidade de Software (QA)}
+
+A Garantia da Qualidade de Software, frequentemente denotada pela sigla QA (\textit{Quality Assurance}), transcende a mera execução de testes nas etapas finais de codificação. Koscianski e Soares \cite{koscianski2007} definem a qualidade de software como o grau de conformidade do produto em relação aos requisitos funcionais e não funcionais estabelecidos, somado à aderência a padrões metodológicos de desenvolvimento. Historicamente, a validação ocorria predominantemente após a construção do sistema; no entanto, a literatura consolida o QA como um processo contínuo, integrado a todas as fases do ciclo de vida da aplicação.
+
+A adoção de processos estruturados de qualidade visa, fundamentalmente, à prevenção da injeção de defeitos. Vasconcelos et al. \cite{vasconcelos2006} elucidam que o estabelecimento de métricas de qualidade e a auditoria constante de artefatos reduzem o esforço de manutenção corretiva. A governança em Tecnologia da Informação exige, portanto, que a qualidade seja planejada e mensurada de forma objetiva, transformando a prevenção de falhas em uma política institucional permanente \cite{koscianski2007}.
+
+\section{Teste de Software: Conceitos Formais e Gestão de Defeitos}
+
+No bojo das atividades de QA, o teste de software figura como o principal mecanismo analítico de verificação e validação. Delamaro, Maldonado e Jino \cite{delamaro2016} afirmam categoricamente que o ato de testar consiste em avaliar um sistema mediante a execução controlada de cenários, com o escopo primário de evidenciar divergências entre o comportamento esperado e o comportamento efetivamente observado. O teste eficiente provê subsídios empíricos cruciais para o aprimoramento contínuo do código.
+
+Para compreender a mecânica dos testes, faz-se necessária a distinção formal entre três conceitos basilares: erro, defeito (ou falta) e falha. Segundo Delamaro, Maldonado e Jino \cite{delamaro2016}, o \textit{erro} refere-se a uma ação humana equivocada que produz um resultado incorreto. O \textit{defeito} é a manifestação física desse erro no código-fonte ou na documentação. A \textit{falha}, por sua vez, é a discrepância observável durante a execução do software, decorrente da ativação de um defeito estrutural.
+
+A formalização desses conceitos exige a utilização de vocabulários unificados e glossários rigorosos. Tebes, Lew e Olsina \cite{tebes2022} ressaltam que ambiguidades semânticas e sintáticas nas especificações de testes afetam drasticamente a comunicação técnica. Ademais, o gerenciamento desse fluxo requer plataformas dedicadas; a ausência de repositórios centralizados para o registro de casos de teste conduz à perda de histórico, dificultando a extração de métricas e inviabilizando decisões baseadas em dados \cite{medeiros2022}.
+
+\section{Modelagem Visual com UML}
+
+O desenvolvimento de sistemas computacionais complexos demanda linguagens de especificação padronizadas para facilitar a comunicação estrutural. A \textit{Unified Modeling Language} (UML) consolida-se como o padrão internacional de modelagem orientada a objetos. Booch, Rumbaugh e Jacobson \cite{booch2005uml}, fundadores da linguagem, definem a UML como uma notação gráfica destinada a especificar, visualizar, construir e documentar artefatos de um sistema de software intensivo.
+
+No escopo do Test-Manager, a modelagem visual atua como o elo entre a especificação de requisitos e a implementação lógica. O uso de diagramas de casos de uso delineia as fronteiras funcionais do sistema e o comportamento dos perfis de usuário (Coordenador, Desenvolvedor e Tester), enquanto os diagramas de classe mapeiam a estrutura de dados inerente ao banco relacional \cite{booch2005uml, wazlawick2019}. Esta padronização viabiliza o desenvolvimento inicial e assegura documentação compreensível para manutenções futuras.
+
+\section{Tecnologias Utilizadas no Projeto}
+
+O desenvolvimento do sistema Test-Manager baseou-se em um conjunto de tecnologias amplamente consolidadas no desenvolvimento \textit{web}. Cada ferramenta desempenha um papel específico na arquitetura da aplicação, contribuindo para a criação de um sistema dinâmico, seguro e compatível com as demandas de controle de qualidade (QA) do ambiente acadêmico.
+
+\subsection{PHP e Framework Laravel}
+O PHP (\textit{Hypertext Preprocessor}) é uma linguagem de \textit{script} executada no lado do servidor, amplamente utilizada no desenvolvimento de aplicações \textit{web} dinâmicas e de alto desempenho \cite{welling2003}. Para orquestrar o código PHP, adotou-se o \textit{framework} Laravel \cite{laravel2026}. De acordo com Subecz \cite{subecz2021}, o Laravel abstrai rotinas complexas de segurança e persistência, fornecendo ferramentas robustas que padronizam o fluxo de desenvolvimento e aceleram a construção de aplicações corporativas. No Test-Manager, o Laravel foi essencial para implementar a autenticação, proteger as rotas contra acesso indevido e estruturar a hierarquia de Coordenadores, Desenvolvedores e \textit{Testers}.
+
+\subsection{Padrão de Arquitetura MVC}
+A arquitetura do \textit{back-end} foi estritamente orientada pelo padrão \textit{Model-View-Controller} (MVC). Segundo Barros \cite{barrosMVC}, o MVC estabelece uma separação lógica rigorosa das responsabilidades sistêmicas, onde o componente \textit{Model} encapsula as regras de banco de dados, a \textit{View} foca exclusivamente na interface gráfica, e o \textit{Controller} atua como intermediário processando as requisições. Essa abordagem, nativamente suportada pelo Laravel \cite{subecz2021}, foi adotada para garantir que o código-fonte gerado mantenha a clareza estrutural exigida pelo ambiente acadêmico, facilitando futuras manutenções e auditorias do IFES.
+
+\subsection{MySQL}
+O MySQL atua como a espinha dorsal para o armazenamento de dados do projeto. Trata-se de um sistema de gerenciamento de banco de dados relacional (SGBD) que utiliza a linguagem SQL para persistir, consultar e organizar dados de maneira altamente eficiente \cite{welling2003}. No contexto desta pesquisa, o MySQL guarda de forma íntegra os usuários, a associação de membros aos projetos de \textit{software}, o controle de versões dos casos de teste e o registro histórico das falhas (\textit{bugs}) reportadas pelas equipes de QA.
+
+\subsection{HTML5, CSS3 e Bootstrap 5}
+Para a construção da camada de apresentação (a \textit{View} do padrão MVC), adotou-se o uso integrado de tecnologias de \textit{front-end}. A estrutura semântica das páginas do Test-Manager foi codificada em HTML5, que, segundo Silva \cite{silva2014}, introduz novos elementos de marcação que facilitam a interpretação do conteúdo tanto pelos navegadores quanto pelos desenvolvedores. A padronização visual, por sua vez, dependeu do CSS3, tecnologia essencial para separar a estrutura do documento de sua apresentação estética \cite{silva2012}. 
+
+Com o objetivo de maximizar a acessibilidade e acelerar a criação das interfaces dos painéis de controle, foi integrado o \textit{framework} Bootstrap 5 \cite{bootstrap2026}. Esta ferramenta fornece um extenso conjunto de componentes pré-estilizados --- como grades flexíveis (\textit{flexbox}), formulários validados, tabelas responsivas e botões hierárquicos --- garantindo que o sistema se adapte de maneira fluida a \textit{desktops} e dispositivos móveis.
+
+\subsection{Git e GitHub}
+As práticas de Engenharia de Software aplicadas à construção do artefato exigiram o uso rigoroso de versionamento de código, viabilizado pelo sistema Git e pelo repositório remoto GitHub. Conforme apontam Chacon e Straub \cite{chacon2014}, o Git é uma ferramenta distribuída que permite registrar o histórico de modificações, comparar versões e reverter alterações de forma incrivelmente eficiente. A integração dessas tecnologias evitou a perda de código, possibilitou a criação isolada de novas funcionalidades e garantiu a rastreabilidade do avanço tecnológico conquistado ao longo do desenvolvimento do projeto.
+
+\section{Trabalhos Correlatos}
+
+A consolidação de um projeto de software embasado cientificamente requer a análise de iniciativas que abordam problemas similares. A revisão bibliográfica identificou seis trabalhos correlatos voltados ao apoio e gestão dos processos de qualidade de software. O estudo dessas ferramentas evidencia as abordagens adotadas pela comunidade científica, permitindo delimitar as inovações e os diferenciais do sistema Test-Manager.
+
+O estudo de Kokubum et al. \cite{kokubum2025} propõe um sistema web focado na gestão eficiente de testes para múltiplas equipes, visando eliminar o uso de abordagens informais. Medeiros e Marques \cite{medeiros2022} complementam esta vertente ao detalhar um sistema para maximizar a qualidade em projetos, enfatizando os prejuízos causados pela ausência de repositórios históricos de defeitos. Em escopo análogo, Weiss \cite{weiss2013} apresenta a \textit{Supporter Test}, uma ferramenta cujo diferencial reside na usabilidade do sistema e no incentivo ao acompanhamento diário do ciclo de vida dos \textit{bugs}.
+
+Focando na automação, a dissertação de Mafra \cite{mafra2010} descreve a \textit{Test Case Selector}, concebida para otimizar o teste de regressão mediante a seleção algorítmica de casos de teste, minimizando o esforço computacional das equipes. Adicionalmente, Reis, Ambrósio e Ferreira \cite{reis2012} alinham o gerenciamento de testes a modelos de processo institucionais, apresentando o ambiente VVTeste, desenvolvido para apoiar processos de Verificação e Validação do modelo de maturidade MPS.BR. Por fim, Vasconcelos et al. \cite{vasconcelos2013} desenvolveram o \textit{Test-Module}, um módulo integrado ao ambiente \textit{FireScrum}, que centraliza o controle de testes no contexto de metodologias ágeis.
+
+A Tabela \ref{tab:trabalhos_correlatos} sintetiza as principais características dos trabalhos analisados frente ao projeto Test-Manager, evidenciando o diferencial estratégico da pesquisa proposta: a combinação de uma gestão hierárquica baseada em perfis acadêmicos com o uso arquitetural estrito do padrão MVC via \textit{framework} Laravel.
+
+\begin{quadro}[htbp]
+\centering
+\caption{Quadro comparativo entre trabalhos correlatos e o sistema proposto.}
+\label{tab:trabalhos_correlatos}
+\vspace{0.2cm}
+\footnotesize
+\begin{tabular}{|p{3cm}|p{3.5cm}|p{3.5cm}|p{4cm}|}
+\hline
+\textbf{Trabalho} & \textbf{Foco Principal} & \textbf{Tecnologias / Modelos} & \textbf{Limitações frente ao contexto estudado} \\ \hline
+Kokubum et al. \cite{kokubum2025} & Gestão de testes para equipes distribuídas. & Plataforma Web. & Não detalha fluxos específicos para um ambiente acadêmico-institucional. \\ \hline
+Medeiros e Marques \cite{medeiros2022} & Histórico de defeitos estruturados. & Desenvolvimento Web genérico. & Falta de padronização contínua MVC/Laravel para manutenções. \\ \hline
+Weiss \cite{weiss2013} & Usabilidade no rastreio de bugs. & Tecnologias Web \textit{server-side}. & Foco em testadores de mercado, sem gestão pedagógica. \\ \hline
+Mafra \cite{mafra2010} & Seleção de testes de regressão. & Otimização algorítmica. & Solução pontual de execução algorítmica, sem gestão holística. \\ \hline
+Reis et al. \cite{reis2012} & Apoio aos processos do modelo MPS.BR. & MPS.BR / Plataforma VVTeste. & Nível de complexidade excessivo para projetos de escopo acadêmico local. \\ \hline
+Vasconcelos et al. \cite{vasconcelos2013} & Gestão acoplada a metodologias ágeis. & Módulo dependente do \textit{FireScrum}. & Ausência de independência do sistema (dependência do \textit{FireScrum}). \\ \hline
+\textbf{Test-Manager (O Projeto Proposto)} & \textbf{Gestão hierárquica de testes e governança de defeitos acadêmicos.} & \textbf{PHP, MySQL, Framework Laravel (Padrão MVC estrito).} & \textbf{Solução autônoma focada na realidade acadêmica do IFES Campus Alegre.} \\ \hline
+\end{tabular}
+
+\vspace{0.2cm}
+{\raggedright \small Fonte: Elaborado pelo autor (2026).\par}
+\end{quadro}

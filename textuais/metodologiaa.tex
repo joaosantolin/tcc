@@ -1,0 +1,27 @@
+\chapter{Metodologia}
+
+Para viabilizar a concepção do sistema Test-Manager de forma rigorosa, este trabalho adota procedimentos metodológicos fundamentados na Engenharia de Software. A pesquisa caracteriza-se quanto à sua natureza como aplicada, visto que busca gerar conhecimentos direcionados à resolução de um problema prático no IFES Campus Alegre. Quanto à abordagem, caracteriza-se como qualitativa, focando na compreensão profunda das dinâmicas operacionais das equipes de desenvolvimento. Do ponto de vista de seus objetivos, a pesquisa é exploratória e descritiva, utilizando a pesquisa bibliográfica e o estudo de caso como procedimentos técnicos principais \cite{vasconcelos2006, wazlawick2019}.
+
+\section{Etapas de Desenvolvimento e Procedimentos Técnicos}
+
+O ciclo de vida do projeto será conduzido em quatro etapas sequenciais, detalhadas a seguir quanto aos seus instrumentos e tecnologias:
+
+\subsection{1. Levantamento e Análise de Requisitos}
+Nesta etapa inicial, os instrumentos de coleta de dados englobarão entrevistas semiestruturadas com o Professor Pedro (demandante e coordenador) e a análise documental das planilhas genéricas atualmente utilizadas pelos alunos. O objetivo é mapear as falhas do processo atual e elicitar os requisitos funcionais e não funcionais. Os requisitos serão documentados em formato de histórias de usuário (\textit{User Stories}) para facilitar a rastreabilidade.
+
+\subsection{2. Modelagem Arquitetural e de Dados}
+Com os requisitos definidos, o sistema será modelado visualmente. Utilizar-se-á a notação UML \cite{booch2005uml} para a criação de Diagramas de Casos de Uso (delimitando os perfis de Coordenador, Desenvolvedor e Tester) e Diagramas de Classes. O banco de dados será projetado por meio do Diagrama Entidade-Relacionamento (DER). As ferramentas tecnológicas empregadas para esta modelagem incluirão softwares de prototipagem visual, como o \textit{Lucidchart} ou o \textit{Draw.io}.
+
+\subsection{3. Implementação e Codificação}
+A fase de construção do protótipo será orientada pelo padrão arquitetural MVC \cite{barrosMVC}. As tecnologias selecionadas compreendem a linguagem PHP no \textit{back-end}, orquestrada pelo \textit{framework} Laravel \cite{laravel2026}, e o banco de dados relacional MySQL para a persistência de usuários, projetos, casos de teste e defeitos. O ambiente de desenvolvimento será configurado em editores de código modernos (como \textit{Visual Studio Code}), e o controle de versão do código-fonte será realizado por meio da ferramenta Git, com repositório hospedado na plataforma GitHub.
+
+\subsection{4. Critérios de Avaliação e Validação (Testes)}
+Para avaliar se o sistema construído atende à proposta, o Test-Manager será submetido a um rigoroso processo de validação. O critério de avaliação basear-se-á na execução de testes funcionais (caixa-preta) cobrindo 100\% dos requisitos mapeados na primeira etapa. Adicionalmente, será conduzida uma prova de conceito (\textit{Proof of Concept} - PoC) no formato de teste de aceitação, onde uma amostra de alunos do curso simulará a criação de um projeto, a documentação de testes e o reporte de um \textit{bug}, validando a usabilidade e a estabilidade da plataforma em ambiente acadêmico.
+
+\chapter{Resultados Esperados}
+
+Ao término das atividades previstas para o TCC 2, espera-se obter como resultado principal a entrega do **Test-Manager**, um artefato de software web totalmente funcional, testado e documentado. A plataforma deverá ser capaz de centralizar a gestão de \textit{Quality Assurance} (QA), oferecendo módulos independentes para o cadastro de projetos, elaboração de roteiros de teste e acompanhamento do ciclo de vida de defeitos.
+
+Do ponto de vista acadêmico, o produto final incluirá também um manual técnico de utilização da ferramenta, voltado para os discentes e docentes do IFES Campus Alegre. Espera-se que a implantação sistêmica deste projeto contribua para a maturidade do ecossistema de desenvolvimento da instituição, eliminando a dependência de documentos textuais avulsos e provendo aos orientadores métricas visuais sobre a confiabilidade das aplicações construídas ao longo do curso.
+
+Por fim, no âmbito científico, a monografia final do TCC 2 consolidará os dados coletados durante a etapa de testes de validação, apresentando uma análise qualitativa sobre o impacto do uso de metodologias organizadas de software no rendimento de equipes compostas por estudantes.
