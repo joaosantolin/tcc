@@ -1,6 +1,6 @@
-PWD c:\Users\jsant\Documents\visual studio\tcc
+PWD c:\VSCODE\tcc\tcc
 INPUT C:\Users\jsant\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\jsant\Documents\visual studio\tcc\main.tex
+INPUT c:\VSCODE\tcc\tcc\main.tex
 OUTPUT main.log
 INPUT .\iftex.cls
 INPUT iftex.cls
@@ -692,6 +692,10 @@ INPUT .\figuras\tela_projetos.png
 INPUT .\figuras\tela_projetos.png
 INPUT .\figuras\tela_projetos.png
 INPUT .\figuras\tela_projetos.png
+INPUT .\figuras\tela_projetos.png
+INPUT .\figuras\tela_projetos.png
+INPUT .\figuras\tela_projetos.png
+INPUT .\figuras\tela_projetos.png
 INPUT .\figuras\tela_casos.png
 INPUT .\figuras\tela_casos.png
 INPUT .\figuras\tela_casos.png
@@ -718,6 +722,20 @@ INPUT .\textuais\resultados.tex
 INPUT .\textuais\resultados.tex
 INPUT .\textuais\resultados.tex
 INPUT textuais\resultados.tex
+INPUT .\figuras\grafico_pizza_concordancia.png
+INPUT .\figuras\grafico_pizza_concordancia.png
+INPUT .\figuras\grafico_pizza_concordancia.png
+INPUT .\figuras\grafico_pizza_concordancia.png
+INPUT .\figuras\grafico_pizza_concordancia.png
+INPUT .\figuras\grafico_pizza_concordancia.png
+INPUT .\figuras\grafico_pizza_concordancia.png
+INPUT .\figuras\grafico_pizza_dimensoes_tam.png
+INPUT .\figuras\grafico_pizza_dimensoes_tam.png
+INPUT .\figuras\grafico_pizza_dimensoes_tam.png
+INPUT .\figuras\grafico_pizza_dimensoes_tam.png
+INPUT .\figuras\grafico_pizza_dimensoes_tam.png
+INPUT .\figuras\grafico_pizza_dimensoes_tam.png
+INPUT .\figuras\grafico_pizza_dimensoes_tam.png
 INPUT C:\Users\jsant\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT .\textuais\conclusao.tex
 INPUT .\textuais\conclusao.tex

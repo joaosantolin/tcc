@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.11.5)  9 NOV 2026 22:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.11.5)  11 NOV 2026 21:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/jsant/Documents/visual studio/tcc/main.tex"
-(c:/Users/jsant/Documents/visual studio/tcc/main.tex
+**c:/VSCODE/tcc/tcc/main.tex
+(c:/VSCODE/tcc/tcc/main.tex
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-09-09>
 (iftex.cls
@@ -1361,7 +1361,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{quadro.4.3}) h
                                                   \__shipout_drop_firstpage_...
 l.66 
      ]
-<./figuras/caso_uso_tcc.png, id=433, 532.99126pt x 596.2275pt>
+<./figuras/caso_uso_tcc.png, id=431, 532.99126pt x 596.2275pt>
 File: ./figuras/caso_uso_tcc.png Graphic file (type png)
 <use ./figuras/caso_uso_tcc.png>
 Package pdftex.def Info: ./figuras/caso_uso_tcc.png  used on input line 76.
@@ -1379,7 +1379,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{quadro.4.4}) h
                                                   \__shipout_drop_firstpage_...
 l.113 
       ]
-<./figuras/DiagramaDeClasse2.png, id=449, 768.8725pt x 1342.01375pt>
+<./figuras/DiagramaDeClasse2.png, id=447, 768.8725pt x 1342.01375pt>
 File: ./figuras/DiagramaDeClasse2.png Graphic file (type png)
 <use ./figuras/DiagramaDeClasse2.png>
 Package pdftex.def Info: ./figuras/DiagramaDeClasse2.png  used on input line 123.
@@ -1395,7 +1395,7 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
  [24
 
 ]
-<./figuras/Modelobancodedados.png, id=466, 1631.09375pt x 1141.26375pt>
+<./figuras/Modelobancodedados.png, id=464, 1631.09375pt x 1141.26375pt>
 File: ./figuras/Modelobancodedados.png Graphic file (type png)
 <use ./figuras/Modelobancodedados.png>
 Package pdftex.def Info: ./figuras/Modelobancodedados.png  used on input line 151.
@@ -1413,103 +1413,135 @@ Cap\'{\i }tulo 5.
 pdfTeX warning (ext4): destination with the same identifier (name{quadro.5.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.44 
+l.42 
      ]
-<./figuras/tela_login.png, id=487, 1155.71774pt x 567.92175pt>
+<./figuras/tela_login.png, id=485, 1155.71774pt x 567.92175pt>
 File: ./figuras/tela_login.png Graphic file (type png)
 <use ./figuras/tela_login.png>
-Package pdftex.def Info: ./figuras/tela_login.png  used on input line 50.
-(pdftex.def)             Requested size: 386.96063pt x 190.15314pt.
-<./figuras/tela_dashboard.png, id=490, 1155.71774pt x 569.12625pt>
+Package pdftex.def Info: ./figuras/tela_login.png  used on input line 48.
+(pdftex.def)             Requested size: 386.96027pt x 190.15314pt.
+<./figuras/tela_dashboard.png, id=488, 1155.71774pt x 569.12625pt>
 File: ./figuras/tela_dashboard.png Graphic file (type png)
 <use ./figuras/tela_dashboard.png>
-Package pdftex.def Info: ./figuras/tela_dashboard.png  used on input line 64.
-(pdftex.def)             Requested size: 418.82674pt x 206.2487pt.
+Package pdftex.def Info: ./figuras/tela_dashboard.png  used on input line 60.
+(pdftex.def)             Requested size: 418.82375pt x 206.2487pt.
  [29
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.68 
+l.64 
       <./figuras/tela_login.png>]
-<./figuras/tela_projetos.png, id=497, 1155.71774pt x 566.71725pt>
+<./figuras/tela_projetos.png, id=495, 1155.71774pt x 566.71725pt>
 File: ./figuras/tela_projetos.png Graphic file (type png)
 <use ./figuras/tela_projetos.png>
-Package pdftex.def Info: ./figuras/tela_projetos.png  used on input line 80.
-(pdftex.def)             Requested size: 418.82674pt x 205.37569pt.
+Package pdftex.def Info: ./figuras/tela_projetos.png  used on input line 74.
+(pdftex.def)             Requested size: 418.82375pt x 205.37569pt.
  [30
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.84 
+l.78 
       <./figuras/tela_dashboard.png>]
-<./figuras/tela_casos.png, id=504, 1155.71774pt x 568.524pt>
-File: ./figuras/tela_casos.png Graphic file (type png)
-<use ./figuras/tela_casos.png>
-Package pdftex.def Info: ./figuras/tela_casos.png  used on input line 94.
-(pdftex.def)             Requested size: 418.82674pt x 206.03046pt.
+File: ./figuras/tela_projetos.png Graphic file (type png)
+<use ./figuras/tela_projetos.png>
+Package pdftex.def Info: ./figuras/tela_projetos.png  used on input line 87.
+(pdftex.def)             Requested size: 418.82375pt x 205.37569pt.
  [31
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.98 
+l.91 
       <./figuras/tela_projetos.png>]
-<./figuras/tela_execucao_caso.png, id=512, 1155.71774pt x 520.344pt>
-File: ./figuras/tela_execucao_caso.png Graphic file (type png)
-<use ./figuras/tela_execucao_caso.png>
-Package pdftex.def Info: ./figuras/tela_execucao_caso.png  used on input line 110.
-(pdftex.def)             Requested size: 418.82674pt x 188.57024pt.
+<./figuras/tela_casos.png, id=509, 1155.71774pt x 568.524pt>
+File: ./figuras/tela_casos.png Graphic file (type png)
+<use ./figuras/tela_casos.png>
+Package pdftex.def Info: ./figuras/tela_casos.png  used on input line 99.
+(pdftex.def)             Requested size: 418.82375pt x 206.03046pt.
  [32
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.114 
-       <./figuras/tela_casos.png>]
-<./figuras/tela_defeitos.png, id=519, 1155.71774pt x 567.92175pt>
-File: ./figuras/tela_defeitos.png Graphic file (type png)
-<use ./figuras/tela_defeitos.png>
-Package pdftex.def Info: ./figuras/tela_defeitos.png  used on input line 124.
-(pdftex.def)             Requested size: 418.82674pt x 205.8122pt.
-) (textuais/resultados.tex [33
+l.103 
+      ]
+<./figuras/tela_execucao_caso.png, id=515, 1155.71774pt x 520.344pt>
+File: ./figuras/tela_execucao_caso.png Graphic file (type png)
+<use ./figuras/tela_execucao_caso.png>
+Package pdftex.def Info: ./figuras/tela_execucao_caso.png  used on input line 113.
+(pdftex.def)             Requested size: 418.82375pt x 188.57024pt.
+ [33
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1 \chapter
-            {Validação do Sistema (Resultados e Discussão)} <./figuras/tela_execucao_caso.png>] [34
+l.117 
+       <./figuras/tela_casos.png>]
+<./figuras/tela_defeitos.png, id=522, 1155.71774pt x 567.92175pt>
+File: ./figuras/tela_defeitos.png Graphic file (type png)
+<use ./figuras/tela_defeitos.png>
+Package pdftex.def Info: ./figuras/tela_defeitos.png  used on input line 125.
+(pdftex.def)             Requested size: 418.82375pt x 205.8122pt.
+) (textuais/resultados.tex [34
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1 \chapter
+            {Validação do Sistema (Resultados e Discussão)} <./figuras/tela_execucao_caso.png>] [35
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.1 \chapter
             {Validação do Sistema (Resultados e Discussão)} <./figuras/tela_defeitos.png>]
 Cap\'{\i }tulo 6.
-[35
+[36
 
-] [36]
+] [37]
 
-LaTeX Warning: Text page 37 contains only floats.
+LaTeX Warning: Text page 38 contains only floats.
 
-[37
+[38
 pdfTeX warning (ext4): destination with the same identifier (name{quadro.6.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.67 
-     ] [38] [39
+     ] [39]
+<./figuras/grafico_pizza_concordancia.png, id=570, 1606.0pt x 996.72375pt>
+File: ./figuras/grafico_pizza_concordancia.png Graphic file (type png)
+<use ./figuras/grafico_pizza_concordancia.png>
+Package pdftex.def Info: ./figuras/grafico_pizza_concordancia.png  used on input line 109.
+(pdftex.def)             Requested size: 432.48051pt x 268.4042pt.
+ [40
 pdfTeX warning (ext4): destination with the same identifier (name{table.6.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.116 
-      ] [40]) (textuais/conclusao.tex [41]
+l.113 
+      ]
+<./figuras/grafico_pizza_dimensoes_tam.png, id=575, 1606.0pt x 683.55376pt>
+File: ./figuras/grafico_pizza_dimensoes_tam.png Graphic file (type png)
+<use ./figuras/grafico_pizza_dimensoes_tam.png>
+Package pdftex.def Info: ./figuras/grafico_pizza_dimensoes_tam.png  used on input line 119.
+(pdftex.def)             Requested size: 446.13727pt x 189.88136pt.
+ [41
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.128     \item
+                \textbf{Perfil Coordenador:} Relatou que sua expectativa ini...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.12}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.128     \item
+                \textbf{Perfil Coordenador:} Relatou que sua expectativa ini... <./figuras/grafico_pizza_concordancia.png> <./figuras/grafico_pizza_dimensoes_tam.png>] [42] [43]) (textuais/conclusao.tex [44]
 Cap\'{\i }tulo 7.
-[42
+[45
 
-] [43] [44]) (main.bbl (main.brf)
+] [46] [47]) (main.bbl (main.brf)
 \tf@brf=\write6
 \openout6 = `main.brf'.
 
- [45]
+ [48]
 bibitemlist
-[46
+[49
 
-]) (main.ind) [47]
+]) (main.ind) [50]
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -1527,20 +1559,20 @@ LaTeX2e <2026-06-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 6DBB98B82D5E7F83AA4F125ECCC32A6F;3617.
+(rerunfilecheck)             Checksum: 5AED65D7911B0D50EDD864AA73925021;3644.
  ) 
 Here is how much of TeX's memory you used:
- 36487 strings out of 467391
- 664979 string characters out of 5405618
- 1129942 words of memory out of 5000000
- 64365 multiletter control sequences out of 15000+600000
- 721076 words of font info for 498 fonts, out of 8000000 for 9000
+ 36502 strings out of 467391
+ 665045 string characters out of 5405618
+ 1130396 words of memory out of 5000000
+ 64376 multiletter control sequences out of 15000+600000
+ 721390 words of font info for 501 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 127i,12n,125p,1367b,746s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 127i,13n,125p,1340b,746s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\jsant\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\jsant\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Users/jsant/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jsant/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jsant/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/jsant/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/jsant/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/jsant/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/jsant/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/jsant/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (53 pages, 1153515 bytes).
+Output written on main.pdf (56 pages, 1434479 bytes).
 PDF statistics:
- 938 PDF objects out of 1000 (max. 8388607)
+ 945 PDF objects out of 1000 (max. 8388607)
  169 named destinations out of 1000 (max. 500000)
- 89646 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 89608 words of extra memory for PDF output out of 106986 (max. 10000000)
 

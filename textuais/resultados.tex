@@ -65,9 +65,9 @@ Não houve identificação nominal dos participantes; o perfil declarado serviu 
 
 A coleta obteve 5 respostas válidas ($n = 5$) após o uso orientado do Test-Manager. Quanto ao perfil de acesso principal declarado, a amostra contemplou todos os atores modelados no sistema, distribuindo-se em: Coordenador (1), Tester (2) e Desenvolvedor (2).
 
-A Tabela \ref{tab:resultados_likert} consolida o número de respondentes ($n$), as médias e os desvios-padrão (DP) obtidos em cada afirmação na escala de 1 a 5.
+A Tabela \ref{tab:resultados_likert} consolida o número de respondentes ($n$), as médias e os desvios-padrão (DP) obtidos em cada afirmação na escala de 1 a 5. De forma complementar, a Figura \ref{fig:grafico_pizza_concordancia} apresenta em gráficos de setores (pizza) a proporção percentual das notas atribuídas no bloco geral (Q1 a Q8) e nos módulos específicos por perfil (Q9 a Q17), enquanto a Figura \ref{fig:grafico_pizza_dimensoes_tam} detalha a distribuição percentual de concordância estratificada pelas três dimensões do Modelo TAM.
 
-\begin{table}[!htb]
+\begin{table}[H]
 \centering
 \caption{Resultados do questionário de avaliação do Test-Manager (Escala Likert 1--5).}
 \label{tab:resultados_likert}
@@ -101,6 +101,26 @@ Q17 & Comunicação facilitada pela atualização do ciclo de vida (Desenvolvedo
 \fonte{Elaborado pelo autor (2026), com base na aplicação do questionário.}
 \end{table}
 
+\begin{figure}[H]
+    \centering
+    \caption{Proporção percentual de concordância na Escala Likert: (a) Dimensões Gerais (Q1 a Q8) e (b) Funcionalidades Específicas por Perfil (Q9 a Q17).}
+    \label{fig:grafico_pizza_concordancia}
+    \vspace{0.2cm}
+    \includegraphics[width=0.95\textwidth, keepaspectratio]{./figuras/grafico_pizza_concordancia.png} \\
+    \vspace{0.2cm}
+    {\raggedright \small Fonte: Elaborado pelo autor (2026).\par}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Distribuição percentual das respostas por dimensão do Modelo TAM: (a) Facilidade de Uso, (b) Utilidade Percebida e (c) Intenção de Uso.}
+    \label{fig:grafico_pizza_dimensoes_tam}
+    \vspace{0.2cm}
+    \includegraphics[width=0.98\textwidth, keepaspectratio]{./figuras/grafico_pizza_dimensoes_tam.png} \\
+    \vspace{0.2cm}
+    {\raggedright \small Fonte: Elaborado pelo autor (2026).\par}
+\end{figure}
+
 \subsection{Respostas Abertas: Dificuldades e Sugestões (Q18 e Q19)}
 
 Nas questões discursivas destinadas ao levantamento de dificuldades operacionais (Q18) e sugestões de aprimoramento futuro (Q19), quatro participantes registraram observações sobre dificuldades e três indicaram propostas de evolução:
@@ -112,17 +132,15 @@ Nas questões discursivas destinadas ao levantamento de dificuldades operacionai
 
 \section{Discussão}
 
-A média geral de 4,43 nos itens comuns (Q1 a Q8) e a média global consolidada de 4,53 (Q1 a Q17), em escala de 1 a 5, situam-se próximas ao topo da escala (\textit{Concordo Totalmente}), evidenciando aceitação amplamente favorável do Test-Manager após o uso prático. Esse resultado é convergente com a verificação técnica prévia, na qual os fluxos operacionais foram executados sem erros de permissão ou inconsistências de estado.
+Conforme demonstrado na Tabela \ref{tab:resultados_likert} e ilustrado nos gráficos de setores das Figuras \ref{fig:grafico_pizza_concordancia} e \ref{fig:grafico_pizza_dimensoes_tam}, a avaliação empírica evidenciou ampla aceitação do sistema Test-Manager após o uso prático. Na Figura \ref{fig:grafico_pizza_concordancia}(a), observa-se que, das 40 avaliações individuais realizadas nas questões gerais (Q1 a Q8), expressivos \textbf{90,0\%} concentraram-se na faixa positiva de concordância --- sendo \textbf{55,0\%} (22 respostas) em \textit{Concordo Totalmente} (nota 5) e \textbf{35,0\%} (14 respostas) em \textit{Concordo Parcialmente} (nota 4) ---, frente a apenas 7,5\% (3 respostas) de posicionamento neutro e 2,5\% (1 resposta) de discordância parcial, resultando na média geral comum de 4,43 ($\text{DP} = 0,75$).
 
-Analisando os construtos do Modelo TAM \cite{davis1989, venkatesh2000} no bloco geral, a dimensão de \textbf{Utilidade Percebida} (Q4 a Q6) alcançou a maior média agregada (4,60; $\text{DP} = 0,63$). O item Q5 (manutenção do histórico de testes e falhas de forma segura e rastreável) obteve o maior índice individual entre as questões gerais (4,80; $\text{DP} = 0,45$), seguido por Q6 (ganho de produtividade, com 4,60) e Q4 (agilidade em comparação a planilhas e Google Docs, com 4,40). Esses números confirmam diretamente a hipótese norteadora da pesquisa: substituir documentos fragmentados em nuvem por um repositório relacional centralizado elimina a perda de histórico de execução, conforme defendido por \citeonline{medeiros2022} e \citeonline{kokubum2025}.
-
-O construto de \textbf{Facilidade de Uso Percebida} (Q1 a Q3) registrou média de 4,27 ($\text{DP} = 0,70$), com destaque para a clareza e intuitividade da interface (Q2, com 4,40). Já a \textbf{Intenção Comportamental de Uso} (Q7 e Q8) atingiu média de 4,40, destacando-se a intenção de continuar utilizando o Test-Manager nos próximos projetos de QA (Q7, com 4,60 e $\text{DP} = 0,55$). O desvio-padrão mais elevado observado em Q8 (1,30, referente à recomendação imediata para outras equipes) explica-se integralmente pela avaliação cautelosa do perfil Coordenador (nota 2 em Q8 e nota 3 em Q2, Q3 e Q4), que justificou na questão aberta (Q18/Q19) sentir falta de um módulo prévio de Engenharia de Requisitos integrado aos casos de teste antes de expandir o sistema para outros grupos.
-
-Por outro lado, quando se analisa a execução das tarefas para as quais o sistema foi especificamente delimitado --- os \textbf{Módulos Específicos por Perfil} (Q9 a Q17) ---, a média salta para expressivos \textbf{4,80} ($\text{DP} = 0,41$). Seis dos nove indicadores específicos obtiveram nota máxima unânime (5,00):
+Analisando a Figura \ref{fig:grafico_pizza_dimensoes_tam}, que decompõe o resultado geral nas três dimensões teóricas do Modelo TAM \cite{davis1989, venkatesh2000}, verifica-se o predomínio das fatias de aprovação (verde e azul) em todos os construtos:
 \begin{itemize}
-    \item O \textbf{Coordenador} atribuiu nota máxima (5,00) à visão gerencial do andamento da qualidade (Q10) e à agilidade proporcionada pela importação de casos de teste em lote via arquivo CSV (Q11);
-    \item Os \textbf{Testers} atribuíram nota máxima (5,00; $\text{DP} = 0,00$) à agilidade de aprovar ou reprovar versões com poucos cliques (Q13) e ao mecanismo que obriga o cadastro do defeito no ato da reprovação (Q14);
-    \item Os \textbf{Desenvolvedores} atribuíram nota máxima (5,00; $\text{DP} = 0,00$) à suficiência técnica da tela de detalhes do defeito para reproduzir e corrigir o código (Q16) e à eficácia da atualização de status para comunicação interna sem depender de mensagens paralelas (Q17), além de avaliarem o sistema com notas entre 4 e 5 em todos os itens gerais.
+    \item Na \textbf{Utilidade Percebida} (Figura \ref{fig:grafico_pizza_dimensoes_tam}b, referente aos itens Q4 a Q6), o índice de concordância positiva atingiu \textbf{93,3\%}, com dois terços das respostas (\textbf{66,7\%}) na nota máxima (\textit{Concordo Totalmente}) e média agregada de 4,60 ($\text{DP} = 0,63$). O destaque recaiu sobre o item Q5 (manutenção do histórico de testes e falhas de forma segura e rastreável, média 4,80), confirmando que a centralização em banco relacional supera a perda de histórico típica de planilhas e documentos soltos em nuvem \cite{medeiros2022, kokubum2025};
+    \item Na \textbf{Facilidade de Uso Percebida} (Figura \ref{fig:grafico_pizza_dimensoes_tam}a, itens Q1 a Q3), \textbf{86,7\%} das respostas situaram-se entre \textit{Concordo Totalmente} (40,0\%) e \textit{Concordo Parcialmente} (46,7\%), com 13,3\% de neutralidade e nenhuma discordância (média de 4,27; $\text{DP} = 0,70$), validando a intuitividade da interface construída com Bootstrap 5;
+    \item Na \textbf{Intenção Comportamental de Uso} (Figura \ref{fig:grafico_pizza_dimensoes_tam}c, itens Q7 e Q8), \textbf{90,0\%} das avaliações foram positivas (60,0\% em \textit{Concordo Totalmente} e 30,0\% em \textit{Concordo Parcialmente}, média 4,40). Os 10,0\% correspondentes a uma única resposta \textit{Discordo Parcialmente} (nota 2 em Q8) referem-se à cautela apontada pelo perfil Coordenador na questão aberta (Q18/Q19), que sugeriu incorporar um módulo prévio de Engenharia de Requisitos antes de expandir a recomendação da ferramenta para outras equipes.
 \end{itemize}
 
-As sugestões colhidas nas questões abertas --- suporte a múltiplos anexos de imagem por defeito, maior destaque visual aos botões de edição/exclusão para o perfil Tester e criação de um módulo de rastreabilidade de requisitos --- não comprometem o núcleo funcional entregue e oferecem um roteiro concreto para a evolução da ferramenta, detalhado nas perspectivas de trabalhos futuros no Capítulo 7.
+Por fim, o gráfico da Figura \ref{fig:grafico_pizza_concordancia}(b) evidencia o desempenho superior do sistema na execução das rotinas específicas de cada papel (\textbf{Módulos Específicos por Perfil}, Q9 a Q17): \textbf{100,0\%} das 15 avaliações foram positivas, sendo \textbf{80,0\%} (12 respostas) de aprovação máxima (\textit{Concordo Totalmente}, nota 5) e \textbf{20,0\%} (3 respostas) de concordância parcial (nota 4), elevando a média específica para \textbf{4,80} ($\text{DP} = 0,41$). Seis dos nove indicadores específicos obtiveram nota máxima unânime (5,00): visão geral da qualidade (Q10) e importação em lote via CSV (Q11) no perfil Coordenador; agilidade ao aprovar/reprovar versões (Q13) e obrigatoriedade de abertura de defeito na reprovação (Q14) no perfil Tester; e clareza nos detalhes do defeito (Q16) e facilidade de comunicação pelo ciclo de vida (Q17) no perfil Desenvolvedor.
+
+As sugestões registradas nas questões abertas --- suporte a múltiplos anexos de imagem por defeito, maior destaque visual aos botões de edição/exclusão para o perfil Tester e criação de um módulo de rastreabilidade de requisitos --- oferecem um direcionamento claro para a evolução contínua da plataforma, detalhado no Capítulo 7.
