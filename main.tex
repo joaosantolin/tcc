@@ -11,6 +11,8 @@
   brazil				  % o último idioma é o principal do documento
 ]{iftex}
 \usepackage{float}
+\usepackage{pdfpages} % Pacote para incluir o PDF do relatório no Anexo
+
 % Importa as macros do projeto
 \input{macros.tex}
 
@@ -46,7 +48,7 @@
   
   % LISTAS E SUMÁRIO
   \imprimirlistafiguras
-%  \imprimirlistatabelas
+  \imprimirlistatabelas
   \imprimirlistaquadros
 %  \imprimirlistasiglas
 %  \imprimirlistasimbolos
@@ -65,24 +67,15 @@
   \input{textuais/sistema}
   \input{textuais/resultados}
   \input{textuais/conclusao}
-  %\input{textuais/testes} % Deletar arquivo textuais/testes.tex
     
   % --------------------------------------------------- %
-  % ELEMENTOS POS-TEXTUAIS %
+  % ELEMENTOS POS-TEXTUAIS                              %
   % --------------------------------------------------- %
   \postextual
   
   % Referencias Bibliográficas
   \bibliographystyle{abntex2-alf} % Autor-Data
   \bibliography{bibliografia}
-  \vspace{1.5cm}
-\noindent
-\begin{minipage}{\textwidth}
-\rule{\textwidth}{0.5pt} \\
-\vspace{0.1cm}
-\small
-
-\end{minipage}
     
   % Apêndices
   %\begin{apendicesenv}
@@ -90,13 +83,18 @@
   %\end{apendicesenv}
 
   % Anexos
-%  \begin{anexosenv}
-%     \input{pos_textuais/anexo.tex}
-%     \input{pos_textuais/easyreview.tex}
-%   \end{anexosenv}
+  \begin{anexosenv}
+    \partanexos
+    \chapter{Relatório do Projeto e Execução de Casos de Teste Gerado pelo Sistema Test-Manager}
+    \label{anexo:relatorio_pdf}
+
+    A seguir, apresenta-se o documento em formato PDF exportado pelo perfil Coordenador diretamente na listagem de projetos do sistema Test-Manager (Caso de Uso UC03), contendo os metadados do projeto, a equipe vinculada, a linha do tempo dos casos de teste e o resumo das versões executadas.
+
+    \includepdf[pages=-, scale=0.88, pagecommand={\thispagestyle{simple}}]{relatorio_projeto_2_20261113_235541.pdf}
+  \end{anexosenv}
 
   % Índice Remissivo
-   \phantompart
+  \phantompart
   \printindex
 
 \end{document}
