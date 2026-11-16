@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.11.13)  13 NOV 2026 21:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.11.13)  16 NOV 2026 08:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1546,63 +1546,99 @@ bibitemlist
 ANEXO A.
 
 
-pdfTeX warning: pdflatex (file ./figuras/relatorio_projeto_2_20261113_235541.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figuras/relatorio_projeto_2_20261113_235541.pdf, id=665, 597.51233pt x 845.0471pt>
-File: figuras/relatorio_projeto_2_20261113_235541.pdf Graphic file (type pdf)
-<use figuras/relatorio_projeto_2_20261113_235541.pdf>
-Package pdftex.def Info: figuras/relatorio_projeto_2_20261113_235541.pdf  used on input line 93.
+pdfTeX warning: pdflatex (file ./figuras/relatorio_projeto.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figuras/relatorio_projeto.pdf, id=665, 597.51233pt x 845.0471pt>
+File: figuras/relatorio_projeto.pdf Graphic file (type pdf)
+<use figuras/relatorio_projeto.pdf>
+Package pdftex.def Info: figuras/relatorio_projeto.pdf  used on input line 93.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 
 
-pdfTeX warning: pdflatex (file ./figuras/relatorio_projeto_2_20261113_235541.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+pdfTeX warning: pdflatex (file ./figuras/relatorio_projeto.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 
-pdfTeX warning: pdflatex (file ./figuras/relatorio_projeto_2_20261113_235541.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figuras/relatorio_projeto_2_20261113_235541.pdf, id=667, page=1, 597.51233pt x 845.0471pt>
-File: figuras/relatorio_projeto_2_20261113_235541.pdf Graphic file (type pdf)
-<use figuras/relatorio_projeto_2_20261113_235541.pdf, page 1>
-Package pdftex.def Info: figuras/relatorio_projeto_2_20261113_235541.pdf , page1 used on input line 93.
+pdfTeX warning: pdflatex (file ./figuras/relatorio_projeto.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figuras/relatorio_projeto.pdf, id=667, page=1, 597.51233pt x 845.0471pt>
+File: figuras/relatorio_projeto.pdf Graphic file (type pdf)
+<use figuras/relatorio_projeto.pdf, page 1>
+Package pdftex.def Info: figuras/relatorio_projeto.pdf , page1 used on input line 93.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-File: figuras/relatorio_projeto_2_20261113_235541.pdf Graphic file (type pdf)
-<use figuras/relatorio_projeto_2_20261113_235541.pdf, page 1>
-Package pdftex.def Info: figuras/relatorio_projeto_2_20261113_235541.pdf , page1 used on input line 93.
+File: figuras/relatorio_projeto.pdf Graphic file (type pdf)
+<use figuras/relatorio_projeto.pdf, page 1>
+Package pdftex.def Info: figuras/relatorio_projeto.pdf , page1 used on input line 93.
 (pdftex.def)             Requested size: 525.81247pt x 743.64375pt.
 [51
 
 ]
-File: figuras/relatorio_projeto_2_20261113_235541.pdf Graphic file (type pdf)
-<use figuras/relatorio_projeto_2_20261113_235541.pdf, page 1>
-Package pdftex.def Info: figuras/relatorio_projeto_2_20261113_235541.pdf , page1 used on input line 93.
+File: figuras/relatorio_projeto.pdf Graphic file (type pdf)
+<use figuras/relatorio_projeto.pdf, page 1>
+Package pdftex.def Info: figuras/relatorio_projeto.pdf , page1 used on input line 93.
 (pdftex.def)             Requested size: 525.81247pt x 743.64375pt.
-File: figuras/relatorio_projeto_2_20261113_235541.pdf Graphic file (type pdf)
-<use figuras/relatorio_projeto_2_20261113_235541.pdf, page 1>
-Package pdftex.def Info: figuras/relatorio_projeto_2_20261113_235541.pdf , page1 used on input line 93.
+File: figuras/relatorio_projeto.pdf Graphic file (type pdf)
+<use figuras/relatorio_projeto.pdf, page 1>
+Package pdftex.def Info: figuras/relatorio_projeto.pdf , page1 used on input line 93.
 (pdftex.def)             Requested size: 525.81247pt x 743.64375pt.
-File: figuras/relatorio_projeto_2_20261113_235541.pdf Graphic file (type pdf)
-<use figuras/relatorio_projeto_2_20261113_235541.pdf, page 1>
-Package pdftex.def Info: figuras/relatorio_projeto_2_20261113_235541.pdf , page1 used on input line 93.
+File: figuras/relatorio_projeto.pdf Graphic file (type pdf)
+<use figuras/relatorio_projeto.pdf, page 1>
+Package pdftex.def Info: figuras/relatorio_projeto.pdf , page1 used on input line 93.
 (pdftex.def)             Requested size: 525.81247pt x 743.64375pt.
  [52
 
- <./figuras/relatorio_projeto_2_20261113_235541.pdf>]
+ <./figuras/relatorio_projeto.pdf>]
 
-pdfTeX warning: pdflatex (file ./figuras/relatorio_projeto_2_20261113_235541.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figuras/relatorio_projeto_2_20261113_235541.pdf, id=693, page=2, 597.51233pt x 845.0471pt>
-File: figuras/relatorio_projeto_2_20261113_235541.pdf Graphic file (type pdf)
-<use figuras/relatorio_projeto_2_20261113_235541.pdf, page 2>
-Package pdftex.def Info: figuras/relatorio_projeto_2_20261113_235541.pdf , page2 used on input line 93.
+pdfTeX warning: pdflatex (file ./figuras/relatorio_projeto.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figuras/relatorio_projeto.pdf, id=693, page=2, 597.51233pt x 845.0471pt>
+File: figuras/relatorio_projeto.pdf Graphic file (type pdf)
+<use figuras/relatorio_projeto.pdf, page 2>
+Package pdftex.def Info: figuras/relatorio_projeto.pdf , page2 used on input line 93.
 (pdftex.def)             Requested size: 525.81247pt x 743.64375pt.
-File: figuras/relatorio_projeto_2_20261113_235541.pdf Graphic file (type pdf)
-<use figuras/relatorio_projeto_2_20261113_235541.pdf, page 2>
-Package pdftex.def Info: figuras/relatorio_projeto_2_20261113_235541.pdf , page2 used on input line 93.
+File: figuras/relatorio_projeto.pdf Graphic file (type pdf)
+<use figuras/relatorio_projeto.pdf, page 2>
+Package pdftex.def Info: figuras/relatorio_projeto.pdf , page2 used on input line 93.
 (pdftex.def)             Requested size: 525.81247pt x 743.64375pt.
-File: figuras/relatorio_projeto_2_20261113_235541.pdf Graphic file (type pdf)
-<use figuras/relatorio_projeto_2_20261113_235541.pdf, page 2>
-Package pdftex.def Info: figuras/relatorio_projeto_2_20261113_235541.pdf , page2 used on input line 93.
+File: figuras/relatorio_projeto.pdf Graphic file (type pdf)
+<use figuras/relatorio_projeto.pdf, page 2>
+Package pdftex.def Info: figuras/relatorio_projeto.pdf , page2 used on input line 93.
 (pdftex.def)             Requested size: 525.81247pt x 743.64375pt.
 [53
 
- <./figuras/relatorio_projeto_2_20261113_235541.pdf>] (main.ind)
+ <./figuras/relatorio_projeto.pdf>]
+
+pdfTeX warning: pdflatex (file ./figuras/relatorio_projeto.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figuras/relatorio_projeto.pdf, id=698, page=3, 597.51233pt x 845.0471pt>
+File: figuras/relatorio_projeto.pdf Graphic file (type pdf)
+<use figuras/relatorio_projeto.pdf, page 3>
+Package pdftex.def Info: figuras/relatorio_projeto.pdf , page3 used on input line 93.
+(pdftex.def)             Requested size: 525.81247pt x 743.64375pt.
+File: figuras/relatorio_projeto.pdf Graphic file (type pdf)
+<use figuras/relatorio_projeto.pdf, page 3>
+Package pdftex.def Info: figuras/relatorio_projeto.pdf , page3 used on input line 93.
+(pdftex.def)             Requested size: 525.81247pt x 743.64375pt.
+File: figuras/relatorio_projeto.pdf Graphic file (type pdf)
+<use figuras/relatorio_projeto.pdf, page 3>
+Package pdftex.def Info: figuras/relatorio_projeto.pdf , page3 used on input line 93.
+(pdftex.def)             Requested size: 525.81247pt x 743.64375pt.
+[54
+
+ <./figuras/relatorio_projeto.pdf>]
+
+pdfTeX warning: pdflatex (file ./figuras/relatorio_projeto.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figuras/relatorio_projeto.pdf, id=704, page=4, 597.51233pt x 845.0471pt>
+File: figuras/relatorio_projeto.pdf Graphic file (type pdf)
+<use figuras/relatorio_projeto.pdf, page 4>
+Package pdftex.def Info: figuras/relatorio_projeto.pdf , page4 used on input line 93.
+(pdftex.def)             Requested size: 525.81247pt x 743.64375pt.
+File: figuras/relatorio_projeto.pdf Graphic file (type pdf)
+<use figuras/relatorio_projeto.pdf, page 4>
+Package pdftex.def Info: figuras/relatorio_projeto.pdf , page4 used on input line 93.
+(pdftex.def)             Requested size: 525.81247pt x 743.64375pt.
+File: figuras/relatorio_projeto.pdf Graphic file (type pdf)
+<use figuras/relatorio_projeto.pdf, page 4>
+Package pdftex.def Info: figuras/relatorio_projeto.pdf , page4 used on input line 93.
+(pdftex.def)             Requested size: 525.81247pt x 743.64375pt.
+[55
+
+ <./figuras/relatorio_projeto.pdf>] (main.ind)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -1626,17 +1662,17 @@ Package rerunfilecheck Info: File `main.brf' has not changed.
 (rerunfilecheck)             Checksum: CFF6A68AA920CFA1EBA8882FC70401A1;3644.
  ) 
 Here is how much of TeX's memory you used:
- 36609 strings out of 467310
- 671894 string characters out of 5398403
+ 36617 strings out of 467310
+ 671844 string characters out of 5398403
  1133640 words of memory out of 5000000
- 64515 multiletter control sequences out of 15000+600000
+ 64521 multiletter control sequences out of 15000+600000
  730447 words of font info for 525 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  127i,18n,125p,1375b,877s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\João Santolin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\João Santolin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Users/João Santolin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/João Santolin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/João Santolin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/João Santolin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/João Santolin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/João Santolin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/João Santolin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/João Santolin/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (60 pages, 2335528 bytes).
+Output written on main.pdf (62 pages, 2342359 bytes).
 PDF statistics:
- 1003 PDF objects out of 1200 (max. 8388607)
- 176 named destinations out of 1000 (max. 500000)
- 102460 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 1014 PDF objects out of 1200 (max. 8388607)
+ 178 named destinations out of 1000 (max. 500000)
+ 102470 words of extra memory for PDF output out of 106986 (max. 10000000)
 

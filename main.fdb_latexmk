@@ -1,5 +1,5 @@
 # Fdb version 4
-["bibtex main"] 0 "main.aux" "main.bbl" "main" 1794616178.50561 0
+["bibtex main"] 0 "main.aux" "main.bbl" "main" 1794829146.2952 0
   "./bibliografia.bib" 1794614350 8900 c602f8a86ffdf78429176a36d6009315 ""
   "C:/Users/JoÃ£o Santolin/AppData/Local/Programs/MiKTeX/bibtex/bib/abntex2/abntex2-options.bib" 0 -1 0 ""
   "C:/Users/JoÃ£o Santolin/AppData/Local/Programs/MiKTeX/bibtex/bst/abntex2/abntex2-alf.bst" 0 -1 0 ""
@@ -8,13 +8,13 @@
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["makeindex main.idx"] 1794615546.37508 "main.idx" "main.ind" "main" 1794616178.50516 0
-  "main.idx" 1794616172 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1794615546.37508 "main.idx" "main.ind" "main" 1794829146.29477 0
+  "main.idx" 1794829140 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["pdflatex"] 1794616170.31151 "f:/vscode/tcc/tcc/main.tex" "main.pdf" "main" 1794616178.5065 0
+["pdflatex"] 1794829138.71665 "f:/vscode/tcc/tcc/main.tex" "main.pdf" "main" 1794829146.29617 0
   "C:/Users/João Santolin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1794615536 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/João Santolin/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1095.pk" 1794615543 21972 c209ae3963f55bc09bd4e5719184a159 ""
   "C:/Users/João Santolin/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1200.pk" 1794615544 24152 58a850ad7b4e663b6928620fae6bc8b3 ""
@@ -268,13 +268,13 @@
   "C:/Users/João Santolin/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/João Santolin/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "easyReview.sty" 1794614350 1843 2358e36947310f30b0344f71b6f0f7c1 ""
-  "f:/vscode/tcc/tcc/main.tex" 1794615003 3445 06bc5e6a34e53b4e6ac99d17c49ef0cd ""
+  "f:/vscode/tcc/tcc/main.tex" 1794829127 3427 8971b018279a76df683e5c813d2972f3 ""
   "figuras/DiagramaDeClasse2.png" 1794614350 57919 1f2ae11a92883f9930b4d0c5931d319d ""
   "figuras/Modelobancodedados.png" 1794614350 157962 74ca642af5e2b1dd3161d9e8b5eb36d6 ""
   "figuras/caso_uso_tcc.png" 1794614350 40826 630edd4391bd43099568729a7dc18520 ""
   "figuras/grafico_pizza_concordancia.png" 1794614371 194153 37072d516453d8d315ef8a5f879cdef6 ""
   "figuras/grafico_pizza_dimensoes_tam.png" 1794614371 149355 383e0e44b0045ddb6a7cf3e0f85293c0 ""
-  "figuras/relatorio_projeto_2_20261113_235541.pdf" 1794614141 883654 cf43e90c5659f3a756e6689e67691180 ""
+  "figuras/relatorio_projeto.pdf" 1794828340 888716 ddfc60b1db66ef2e717e5ab74dfd9843 ""
   "figuras/tela_casos.png" 1794614350 122829 eb0d4f5b30a225bca671604b737dc553 ""
   "figuras/tela_dashboard.png" 1794614350 86280 000286268bd6b0ffeb741e16031a7a38 ""
   "figuras/tela_defeitos.png" 1794614350 69779 0941365949fd1f4a2f3810bf07d5a914 ""
@@ -283,15 +283,15 @@
   "figuras/tela_projetos.png" 1794614350 45609 293df0bccf8573fa0fde8b6f5dd57363 ""
   "iftex.cls" 1794614350 25859 1ac5d3ce18394d34b4679cb58e444704 ""
   "macros.tex" 1794614350 2514 c50f561daa15e648ec834267d0272d62 ""
-  "main.aux" 1794616177 46855 ce951da897d80af47dba083cc7776e53 "pdflatex"
+  "main.aux" 1794829145 46855 e6dbee882d669037df56f668895dd9b7 "pdflatex"
   "main.bbl" 1794614350 7343 5ec87d160e0ff7fd0f182c26aa550013 "bibtex main"
-  "main.brf" 1794616177 3644 cff6a68aa920cfa1eba8882fc70401a1 "pdflatex"
+  "main.brf" 1794829145 3644 cff6a68aa920cfa1eba8882fc70401a1 "pdflatex"
   "main.ind" 1794615546 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
-  "main.lof" 1794616177 1669 77c2a7e8e2a56080689c19779af5fd52 "pdflatex"
-  "main.loq" 1794616177 839 a81628d56c2c45ed5091727f45a8519f "pdflatex"
-  "main.lot" 1794616177 224 5edea6254291a5c939b0fbbb10850cbf "pdflatex"
-  "main.tex" 1794615003 3445 06bc5e6a34e53b4e6ac99d17c49ef0cd ""
-  "main.toc" 1794616177 6689 1fa1b111b9dcb66211fcfd5245f0b3cf "pdflatex"
+  "main.lof" 1794829145 1669 77c2a7e8e2a56080689c19779af5fd52 "pdflatex"
+  "main.loq" 1794829145 839 a81628d56c2c45ed5091727f45a8519f "pdflatex"
+  "main.lot" 1794829145 224 5edea6254291a5c939b0fbbb10850cbf "pdflatex"
+  "main.tex" 1794829127 3427 8971b018279a76df683e5c813d2972f3 ""
+  "main.toc" 1794829145 6689 1fa1b111b9dcb66211fcfd5245f0b3cf "pdflatex"
   "textuais/conclusao.tex" 1794614350 8521 39818dfc4807f14e86a65cad8ac5539e ""
   "textuais/introducao.tex" 1794614350 9205 aaf2797e203262fbcefc6580343562ad ""
   "textuais/metodologia.tex" 1794614350 6116 ab5371af2d6f2baa888eb5deec7927cb ""
