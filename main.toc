@@ -52,27 +52,28 @@
 \contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Validação do Sistema (Resultados e Discussão)}}{35}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Instrumentos de Avaliação}{35}{section.6.1}%
 \contentsline {subsection}{\numberline {6.1.1}Verificação Técnica}{35}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Questionário de Avaliação (Modelo TAM)}{35}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.2}Questionário de Avaliação (Modelo TAM)}{36}{subsection.6.1.2}%
 \contentsline {section}{\numberline {6.2}Procedimento de Coleta}{36}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Resultados}{38}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Respostas Abertas: Dificuldades e Sugestões (Q18 e Q19)}{41}{subsection.6.3.1}%
-\contentsline {section}{\numberline {6.4}Discussão}{41}{section.6.4}%
+\contentsline {section}{\numberline {6.3}Resultados e Discussão}{38}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Análise Tabular das Dimensões Gerais e Específicas}{38}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Análise Gráfica da Proporção de Concordância}{41}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Respostas Abertas: Dificuldades e Sugestões (Q18 e Q19)}{43}{subsection.6.3.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Conclusão}}{44}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Considerações Finais}{44}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Síntese do Atendimento aos Objetivos}{45}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Limitações}{46}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Trabalhos Futuros}{46}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Considerações Finais do Autor}{47}{section.7.5}%
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Conclusão}}{45}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Considerações Finais}{45}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Síntese do Atendimento aos Objetivos}{46}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Limitações}{47}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Trabalhos Futuros}{47}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Considerações Finais do Autor}{48}{section.7.5}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{48}{section*.8}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{49}{section*.10}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
 \cftinsert {A}
-\contentsline {part}{\uppercase {Anexos}}{50}{section*.9}%
+\contentsline {part}{\uppercase {Anexos}}{51}{section*.11}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Relatório do Projeto e Execução de Casos de Teste Gerado pelo Sistema Test-Manager}}{51}{appendix.anexochapback.1}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Relatório do Projeto e Execução de Casos de Teste Gerado pelo Sistema Test-Manager}}{52}{appendix.anexochapback.1}%

@@ -62,6 +62,11 @@ Dispon{\'\i}vel em: \url{https://doi.org/10.5753/reic.2025.5676}. Acesso em: 12
 [S.l.], 2026. Dispon{\'\i}vel em: \url{https://laravel.com/docs}. Acesso em: 24
   maio 2026.}
 
+\bibitem[Likert 1932]{likert1932}
+\abntrefinfo{Likert}{LIKERT}{1932}
+{LIKERT, R. A technique for the measurement of attitudes.
+\textbf{Archives of Psychology}, New York, n.~140, p. 1--55, 1932.}
+
 \bibitem[Mafra 2010]{mafra2010}
 \abntrefinfo{Mafra}{MAFRA}{2010}
 {MAFRA, J. N.~D.
@@ -81,6 +86,11 @@ Disserta\c{c}\~{a}o (Mestrado) --- Centro de Inform{\'a}tica, Universidade
 \abntrefinfo{Nielsen}{NIELSEN}{1994}
 {NIELSEN, J. \textbf{Usability Engineering}. San Francisco: Morgan Kaufmann,
   1994.}
+
+\bibitem[Pressman e Maxim 2016]{pressman2016}
+\abntrefinfo{Pressman e Maxim}{PRESSMAN; MAXIM}{2016}
+{PRESSMAN, R.~S.; MAXIM, B.~R. \textbf{Engenharia de Software: uma abordagem
+  profissional}. 8. ed. Porto Alegre: AMGH, 2016.}
 
 \bibitem[Reis, Ambr{\'o}sio e Ferreira 2012]{reis2012}
 \abntrefinfo{Reis, Ambr{\'o}sio e Ferreira}{REIS; AMBR{\'O}SIO; FERREIRA}{2012}
@@ -102,6 +112,11 @@ Disserta\c{c}\~{a}o (Mestrado) --- Centro de Inform{\'a}tica, Universidade
 \abntrefinfo{Silva}{SILVA}{2014}
 {SILVA, M.~S. \textbf{HTML5: A linguagem de marca{\c{c}}{\~a}o que revolucionou
   a web}. 2. ed. S{\~a}o Paulo: Novatec Editora, 2014.}
+
+\bibitem[Sommerville 2019]{sommerville2019}
+\abntrefinfo{Sommerville}{SOMMERVILLE}{2019}
+{SOMMERVILLE, I. \textbf{Engenharia de Software}. 10. ed. São Paulo: Pearson
+  Education do Brasil, 2019.}
 
 \bibitem[Subecz 2021]{subecz2021}
 \abntrefinfo{Subecz}{SUBECZ}{2021}
