@@ -70,10 +70,7 @@
 \contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{49}{section*.10}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
-\setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
-\cftinsert {A}
-\contentsline {part}{\uppercase {Anexos}}{51}{section*.11}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Relatório do Projeto e Execução de Casos de Teste Gerado pelo Sistema Test-Manager}}{52}{appendix.anexochapback.1}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Relatório de Projeto Gerado pelo Test-Manager}}{51}{appendix.anexochapback.1}%
