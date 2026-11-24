@@ -7,60 +7,45 @@
 
 \bibitem[Barros 2020]{barrosMVC}
 \abntrefinfo{Barros}{BARROS}{2020}
-{BARROS, T. \textbf{Padr{\~a}o de Arquitetura MVC (Model-View-Controller)}.
-  2020.
-Dispon{\'\i}vel em: \url{https://www.tiagobarros.org/docs/SMVC.pdf}. Acesso em:
-  24 maio 2026.}
+{BARROS, T. \textbf{Padr{\~a}o de Arquitetura MVC (Model-View-Controller)}. 2020.
+Dispon{\'\i}vel em: \url{https://www.tiagobarros.org/docs/SMVC.pdf}. Acesso em: 24 maio 2026.}
 
 \bibitem[Booch, Rumbaugh e Jacobson 2005]{booch2005uml}
 \abntrefinfo{Booch, Rumbaugh e Jacobson}{BOOCH; RUMBAUGH; JACOBSON}{2005}
-{BOOCH, G.; RUMBAUGH, J.; JACOBSON, I. \textbf{UML: guia do usu{\'a}rio}. Rio
-  de Janeiro: Elsevier, 2005.}
+{BOOCH, G.; RUMBAUGH, J.; JACOBSON, I. \textbf{UML: guia do usu{\'a}rio}. Rio de Janeiro: Elsevier, 2005.}
 
 \bibitem[{Bootstrap Team} 2026]{bootstrap2026}
 \abntrefinfo{{Bootstrap Team}}{{Bootstrap Team}}{2026}
 {{Bootstrap Team}. \textbf{Bootstrap Documentation}.
-[S.l.], 2026. Dispon{\'\i}vel em: \url{https://getbootstrap.com/docs/5.3/}.
-  Acesso em: 24 maio 2026.}
+[S.l.], 2026. Dispon{\'\i}vel em: \url{https://getbootstrap.com/docs/5.3/}. Acesso em: 24 maio 2026.}
 
 \bibitem[Chacon e Straub 2014]{chacon2014}
 \abntrefinfo{Chacon e Straub}{CHACON; STRAUB}{2014}
-{CHACON, S.; STRAUB, B. \textbf{Pro Git}. New York: Apress, 2014.
-  Dispon{\'\i}vel em: \url{https://git-scm.com/book/en/v2}.}
+{CHACON, S.; STRAUB, B. \textbf{Pro Git}. New York: Apress, 2014. Dispon{\'\i}vel em: \url{https://git-scm.com/book/en/v2}.}
 
 \bibitem[Davis 1989]{davis1989}
 \abntrefinfo{Davis}{DAVIS}{1989}
-{DAVIS, F.~D. Perceived usefulness, perceived ease of use, and user acceptance
-  of information technology.
-\textbf{MIS Quarterly}, Management Information Systems Research Center,
-  University of Minnesota, v.~13, n.~3, p. 319--340, 1989.}
+{DAVIS, F.~D. Perceived usefulness, perceived ease of use, and user acceptance of information technology.
+\textbf{MIS Quarterly}, Management Information Systems Research Center, University of Minnesota, v.~13, n.~3, p. 319--340, 1989.}
 
 \bibitem[Delamaro, Maldonado e Jino 2016]{delamaro2016}
 \abntrefinfo{Delamaro, Maldonado e Jino}{DELAMARO; MALDONADO; JINO}{2016}
-{DELAMARO, M.~E.; MALDONADO, J.~C.; JINO, M. \textbf{Introdu{\c{c}}{\~a}o ao
-  teste de software}. 2. ed. Rio de Janeiro: Elsevier, 2016.}
+{DELAMARO, M.~E.; MALDONADO, J.~C.; JINO, M. \textbf{Introdu{\c{c}}{\~a}o ao teste de software}. 2. ed. Rio de Janeiro: Elsevier, 2016.}
 
 \bibitem[Kokubum \textit{et al.} 2025]{kokubum2025}
 \abntrefinfo{Kokubum \textit{et al.}}{KOKUBUM \textit{et al.}}{2025}
-{KOKUBUM, E.~S. \textit{et al.} Um sistema web para gest{\~a}o eficiente de
-  testes em projetos de desenvolvimento de software.
-\textbf{Revista Eletr{\^o}nica De Inicia{\c{c}}{\~a}o Cient{\'\i}fica Em
-  Computa{\c{c}}{\~a}o}, v.~23, n.~1, p. 176--188, 2025.
-Dispon{\'\i}vel em: \url{https://doi.org/10.5753/reic.2025.5676}. Acesso em: 12
-  maio 2026.}
+{KOKUBUM, E.~S. \textit{et al.} Um sistema web para gest{\~a}o eficiente de testes em projetos de desenvolvimento de software.
+\textbf{Revista Eletr{\^o}nica De Inicia{\c{c}}{\~a}o Cient{\'\i}fica Em Computa{\c{c}}{\~a}o}, v.~23, n.~1, p. 176--188, 2025.
+Dispon{\'\i}vel em: \url{https://doi.org/10.5753/reic.2025.5676}. Acesso em: 12 maio 2026.}
 
 \bibitem[Koscianski e Soares 2007]{koscianski2007}
 \abntrefinfo{Koscianski e Soares}{KOSCIANSKI; SOARES}{2007}
-{KOSCIANSKI, A.; SOARES, M. dos S. \textbf{Qualidade de
-  Software-2{\textordfeminine} Edi{\c{c}}{\~a}o: Aprenda as metodologias e
-  t{\'e}cnicas mais modernas para o desenvolvimento de software}. S{\~a}o
-  Paulo: Novatec Editora, 2007.}
+{KOSCIANSKI, A.; SOARES, M. dos S. \textbf{Qualidade de Software-2{\textordfeminine} Edi{\c{c}}{\~a}o: Aprenda as metodologias e t{\'e}cnicas mais modernas para o desenvolvimento de software}. S{\~a}o Paulo: Novatec Editora, 2007.}
 
 \bibitem[{Laravel LLC} 2026]{laravel2026}
 \abntrefinfo{{Laravel LLC}}{{Laravel LLC}}{2026}
 {{Laravel LLC}. \textbf{Laravel Documentation}.
-[S.l.], 2026. Dispon{\'\i}vel em: \url{https://laravel.com/docs}. Acesso em: 24
-  maio 2026.}
+[S.l.], 2026. Dispon{\'\i}vel em: \url{https://laravel.com/docs}. Acesso em: 24 maio 2026.}
 
 \bibitem[Likert 1932]{likert1932}
 \abntrefinfo{Likert}{LIKERT}{1932}
@@ -71,52 +56,35 @@ Dispon{\'\i}vel em: \url{https://doi.org/10.5753/reic.2025.5676}. Acesso em: 12
 \abntrefinfo{Mafra}{MAFRA}{2010}
 {MAFRA, J. N.~D.
 \textbf{Test Case Selector: Uma Ferramenta para Seleção de Testes}.
-Disserta\c{c}\~{a}o (Mestrado) --- Centro de Inform{\'a}tica, Universidade
-  Federal de Pernambuco, Recife, 2010.}
+Disserta\c{c}\~{a}o (Mestrado) --- Centro de Inform{\'a}tica, Universidade Federal de Pernambuco, Recife, 2010.}
 
 \bibitem[Medeiros e Marques 2022]{medeiros2022}
 \abntrefinfo{Medeiros e Marques}{MEDEIROS; MARQUES}{2022}
-{MEDEIROS, R. d.~B.; MARQUES, T.~B. Sistema para gerenciamento de teste na
-  qualidade de software. In:  \textbf{Congresso de Interdisciplinaridade do
-  Noroeste Fluminense}. [s.n.], 2022. v.~2. Dispon{\'\i}vel em:
-  \url{https://anais.eventos.iff.edu.br/index.php/coninfitaperuna/article/view/1216}.
-  Acesso em: 12 maio 2026.}
+{MEDEIROS, R. d.~B.; MARQUES, T.~B. Sistema para gerenciamento de teste na qualidade de software. In:  \textbf{Congresso de Interdisciplinaridade do Noroeste Fluminense}. [s.n.], 2022. v.~2. Dispon{\'\i}vel em: \url{https://anais.eventos.iff.edu.br/index.php/coninfitaperuna/article/view/1216}. Acesso em: 12 maio 2026.}
 
 \bibitem[Nielsen 1994]{nielsen1994}
 \abntrefinfo{Nielsen}{NIELSEN}{1994}
-{NIELSEN, J. \textbf{Usability Engineering}. San Francisco: Morgan Kaufmann,
-  1994.}
+{NIELSEN, J. \textbf{Usability Engineering}. San Francisco: Morgan Kaufmann, 1994.}
 
 \bibitem[Pressman e Maxim 2016]{pressman2016}
 \abntrefinfo{Pressman e Maxim}{PRESSMAN; MAXIM}{2016}
-{PRESSMAN, R.~S.; MAXIM, B.~R. \textbf{Engenharia de Software: uma abordagem
-  profissional}. 8. ed. Porto Alegre: AMGH, 2016.}
+{PRESSMAN, R.~S.; MAXIM, B.~R. \textbf{Engenharia de Software: uma abordagem profissional}. 8. ed. Porto Alegre: AMGH, 2016.}
 
 \bibitem[Reis, Ambr{\'o}sio e Ferreira 2012]{reis2012}
 \abntrefinfo{Reis, Ambr{\'o}sio e Ferreira}{REIS; AMBR{\'O}SIO; FERREIRA}{2012}
-{REIS, M. F.~S.; AMBR{\'O}SIO, A.~M.; FERREIRA, M. G.~V. Vvteste: Ambiente de
-  gera{\c{c}}{\~a}o e gerenciamento de testes e de defeitos como apoio aos
-  processos de verifica{\c{c}}{\~a}o e valida{\c{c}}{\~a}o do mps.br. In:
-  INPE. \textbf{Anais do Workshop Anual do MPS (WAMPS)}. S{\~a}o Jos{\'e} dos
-  Campos, 2012. p. 152--159. Dispon{\'\i}vel em:
-  \url{http://mtc-m16d.sid.inpe.br/col/sid.inpe.br/mtc-m19/2012/03.02.02.29/doc/publicacao.pdf}.
-  Acesso em: 24 maio 2026.}
+{REIS, M. F.~S.; AMBR{\'O}SIO, A.~M.; FERREIRA, M. G.~V. Vvteste: Ambiente de gera{\c{c}}{\~a}o e gerenciamento de testes e de defeitos como apoio aos processos de verifica{\c{c}}{\~a}o e valida{\c{c}}{\~a}o do mps.br. In:  INPE. \textbf{Anais do Workshop Anual do MPS (WAMPS)}. S{\~a}o Jos{\'e} dos Campos, 2012. p. 152--159. Dispon{\'\i}vel em: \url{http://mtc-m16d.sid.inpe.br/col/sid.inpe.br/mtc-m19/2012/03.02.02.29/doc/publicacao.pdf}. Acesso em: 24 maio 2026.}
 
 \bibitem[Silva 2012]{silva2012}
 \abntrefinfo{Silva}{SILVA}{2012}
-{SILVA, M.~S. \textbf{CSS3: Desenvolva aplica{\c{c}}{\~o}es web profissionais
-  com uso dos poderosos recursos de estiliza{\c{c}}{\~a}o}. S{\~a}o Paulo:
-  Novatec Editora, 2012.}
+{SILVA, M.~S. \textbf{CSS3: Desenvolva aplica{\c{c}}{\~o}es web profissionais com uso dos poderosos recursos de estiliza{\c{c}}{\~a}o}. S{\~a}o Paulo: Novatec Editora, 2012.}
 
 \bibitem[Silva 2014]{silva2014}
 \abntrefinfo{Silva}{SILVA}{2014}
-{SILVA, M.~S. \textbf{HTML5: A linguagem de marca{\c{c}}{\~a}o que revolucionou
-  a web}. 2. ed. S{\~a}o Paulo: Novatec Editora, 2014.}
+{SILVA, M.~S. \textbf{HTML5: A linguagem de marca{\c{c}}{\~a}o que revolucionou a web}. 2. ed. S{\~a}o Paulo: Novatec Editora, 2014.}
 
 \bibitem[Sommerville 2019]{sommerville2019}
 \abntrefinfo{Sommerville}{SOMMERVILLE}{2019}
-{SOMMERVILLE, I. \textbf{Engenharia de Software}. 10. ed. São Paulo: Pearson
-  Education do Brasil, 2019.}
+{SOMMERVILLE, I. \textbf{Engenharia de Software}. 10. ed. São Paulo: Pearson Education do Brasil, 2019.}
 
 \bibitem[Subecz 2021]{subecz2021}
 \abntrefinfo{Subecz}{SUBECZ}{2021}
@@ -125,49 +93,33 @@ Disserta\c{c}\~{a}o (Mestrado) --- Centro de Inform{\'a}tica, Universidade
 
 \bibitem[Tebes, Lew e Olsina 2022]{tebes2022}
 \abntrefinfo{Tebes, Lew e Olsina}{TEBES; LEW; OLSINA}{2022}
-{TEBES, G.; LEW, P.; OLSINA, L. Syntactic and semantic similarities and
-  discrepancies between terms of glossaries for software testing. In:
-  \textbf{Anais do XXV Congresso Ibero-Americano em Engenharia de Software
-  (CIBSE)}. Porto Alegre: Sociedade Brasileira de Computa{\c{c}}{\~a}o, 2022.
-  p. 278--291.}
+{TEBES, G.; LEW, P.; OLSINA, L. Syntactic and semantic similarities and discrepancies between terms of glossaries for software testing. In:  \textbf{Anais do XXV Congresso Ibero-Americano em Engenharia de Software (CIBSE)}. Porto Alegre: Sociedade Brasileira de Computa{\c{c}}{\~a}o, 2022. p. 278--291.}
 
 \bibitem[Vasconcelos \textit{et al.} 2013]{vasconcelos2013}
 \abntrefinfo{Vasconcelos \textit{et al.}}{VASCONCELOS \textit{et al.}}{2013}
-{VASCONCELOS, A.~B. \textit{et al.} Test-module: Uma ferramenta para
-  gerenciamento de testes de software integrada ao firescrum. In:  SBC.
-  \textbf{Anais do Simp{\'o}sio Brasileiro de Qualidade de Software (SBQS)}.
-  Recife, 2013. p. 150--160. Dispon{\'\i}vel em:
-  \url{http://www.facol.com/si/downloads/Revista\_SI\_2009/Artigo07.pdf}.
-  Acesso em: 24 maio 2026.}
+{VASCONCELOS, A.~B. \textit{et al.} Test-module: Uma ferramenta para gerenciamento de testes de software integrada ao firescrum. In:  SBC. \textbf{Anais do Simp{\'o}sio Brasileiro de Qualidade de Software (SBQS)}. Recife, 2013. p. 150--160. Dispon{\'\i}vel em: \url{http://www.facol.com/si/downloads/Revista\_SI\_2009/Artigo07.pdf}. Acesso em: 24 maio 2026.}
 
 \bibitem[Vasconcelos, Souza e Silva 2006]{vasconcelos2006}
 \abntrefinfo{Vasconcelos, Souza e Silva}{VASCONCELOS; SOUZA; SILVA}{2006}
-{VASCONCELOS, A. M.~L. de; SOUZA, S. R.~S. de; SILVA, J.~B. da.
-  \textbf{Introdu{\c{c}}{\~a}o {\`a} Engenharia de Software e {\`a} Qualidade
-  de Software}. Minas Gerais: Universidade Federal de Lavras, 2006.}
+{VASCONCELOS, A. M.~L. de; SOUZA, S. R.~S. de; SILVA, J.~B. da. \textbf{Introdu{\c{c}}{\~a}o {\`a} Engenharia de Software e {\`a} Qualidade de Software}. Minas Gerais: Universidade Federal de Lavras, 2006.}
 
 \bibitem[Venkatesh e Davis 2000]{venkatesh2000}
 \abntrefinfo{Venkatesh e Davis}{VENKATESH; DAVIS}{2000}
-{VENKATESH, V.; DAVIS, F.~D. A theoretical extension of the technology
-  acceptance model: Four longitudinal field studies.
+{VENKATESH, V.; DAVIS, F.~D. A theoretical extension of the technology acceptance model: Four longitudinal field studies.
 \textbf{Management Science}, INFORMS, v.~46, n.~2, p. 186--204, 2000.}
 
 \bibitem[Wazlawick 2019]{wazlawick2019}
 \abntrefinfo{Wazlawick}{WAZLAWICK}{2019}
-{WAZLAWICK, R.~S. \textbf{Engenharia de software: conceitos e pr{\'a}ticas}.
-  Rio de Janeiro: Elsevier, 2019.}
+{WAZLAWICK, R.~S. \textbf{Engenharia de software: conceitos e pr{\'a}ticas}. Rio de Janeiro: Elsevier, 2019.}
 
 \bibitem[Weiss 2013]{weiss2013}
 \abntrefinfo{Weiss}{WEISS}{2013}
 {WEISS, C.~P.
-\textbf{Supporter Test: Ferramenta de apoio ao gerenciamento de testes de
-  software}.
-Disserta\c{c}\~{a}o (Mestrado) --- Centro de Ci{\^e}ncias Exatas e
-  Tecnol{\'o}gicas, UNIVATES, Lajeado, 2013.}
+\textbf{Supporter Test: Ferramenta de apoio ao gerenciamento de testes de software}.
+Disserta\c{c}\~{a}o (Mestrado) --- Centro de Ci{\^e}ncias Exatas e Tecnol{\'o}gicas, UNIVATES, Lajeado, 2013.}
 
 \bibitem[Welling e Thomson 2003]{welling2003}
 \abntrefinfo{Welling e Thomson}{WELLING; THOMSON}{2003}
-{WELLING, L.; THOMSON, L. \textbf{PHP and MySQL Web development}. Indianapolis:
-  Sams publishing, 2003.}
+{WELLING, L.; THOMSON, L. \textbf{PHP and MySQL Web development}. Indianapolis: Sams publishing, 2003.}
 
 \end{thebibliography}

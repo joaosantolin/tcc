@@ -117,3 +117,18 @@ No módulo de gerenciamento de defeitos (Figura \ref{fig:tela_defeitos}), o rela
     \vspace{0.2cm}
     {\raggedright \small Fonte: Elaborado pelo autor (2026).\par}
 \end{figure}
+
+\section{Infraestrutura de Hospedagem e Implantação}
+
+Para viabilizar o acesso remoto das equipes e a validação prática do Test-Manager, o sistema foi implantado em um servidor de homologação Linux (Ubuntu), disponível em \url{https://weka.inf.ufes.br/case-manager/login}. A infraestrutura utiliza o servidor web Nginx configurado como \textit{proxy} reverso, responsável por receber as requisições externas via HTTPS e redirecioná-las internamente aos serviços da aplicação.
+
+Conforme delineado na arquitetura do projeto, toda a aplicação executa de forma conteinerizada por meio do Docker e orquestrada com o Docker Compose, isolando o ambiente PHP/Laravel e suas dependências operacionais. Para padronizar as atualizações no servidor de homologação e reduzir o risco de falhas manuais, o processo de implantação (\textit{deploy}) é conduzido de forma automatizada pelo administrador mediante a execução do \textit{shell script} \texttt{deploySantolin.sh}, estruturado em cinco etapas sequenciais:
+\begin{enumerate}
+    \item \textbf{Obtenção do código-fonte:} Realiza a clonagem da versão mais recente do repositório hospedado no GitHub (\texttt{case-manager}) utilizando o usuário de sistema dedicado (\texttt{weka});
+    \item \textbf{Rotação de backup e preservação de ambiente:} Antes de substituir os arquivos em execução, remove o backup anterior (\texttt{/var/www/case-managerBKP}) e move a versão vigente para esse diretório, garantindo cópia de segurança para eventual reversão. Em seguida, posiciona o novo código em \texttt{/var/www/case-manager} e copia o arquivo \texttt{.env} do backup para a nova pasta, preservando credenciais e configurações do servidor;
+    \item \textbf{Adequação dos manifestos para hospedagem:} Renomeia os arquivos voltados ao ambiente de servidor (\texttt{docker-compose.yml.prod} e \texttt{Dockerfile.prod}) para assumirem o lugar dos arquivos ativos (\texttt{docker-compose.yml} e \texttt{Dockerfile}), assegurando que os contêineres sejam construídos com os parâmetros de produção;
+    \item \textbf{Reconstrução e orquestração dos contêineres Docker:} No diretório do projeto, encerra os contêineres anteriores (\texttt{docker compose down}), realiza o novo \textit{build} das imagens e inicializa os serviços em segundo plano (\texttt{docker compose up -d --build}), aguardando um breve intervalo de estabilização;
+    \item \textbf{Dependências, permissões e rotinas do Laravel:} Executa comandos no contêiner \texttt{case-manager-app} para instalar as dependências PHP via Composer (\texttt{composer install}) e ajustar o proprietário (\texttt{www-data}) e as permissões de escrita (\texttt{775}) de \texttt{storage} e \texttt{bootstrap/cache}, necessários para logs, cache, sessões e capturas de tela de defeitos. Adicionalmente, o script documenta, em comandos comentados para a implantação inicial, as rotinas do \textit{Artisan} para geração da chave criptográfica (\texttt{php artisan key:generate}) e criação e população do banco de dados (\texttt{php artisan migrate --seed}).
+\end{enumerate}
+
+Essa automação via contêineres e script de implantação assegura a reprodutibilidade do ambiente entre o desenvolvimento local e o servidor de homologação, facilitando a manutenção contínua e a publicação de futuras melhorias do Test-Manager.
